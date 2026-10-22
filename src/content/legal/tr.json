@@ -1,0 +1,234 @@
+{
+ "privacy": {
+  "title": "Gizlilik Politikası",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva (\"uygulama\"), iPhone için bir evde spor uygulamasıdır. Bu politika, uygulamanın hangi verileri kullandığını ve bu verilerin nereye gittiğini açıklar. Kısaca: verilerini toplamıyoruz. Hesap yok, analiz yok, reklam yok, takip yok."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Topladığımız veriler",
+    "blocks": [
+     {
+      "p": "Hiçbiri. Geliştirici, uygulama için sunucu işletmez ve uygulamadan hiçbir kişisel veri almaz."
+     }
+    ]
+   },
+   {
+    "title": "Uygulamanın cihazında sakladığı veriler",
+    "blocks": [
+     {
+      "ul": [
+       "Antrenman tercihleri ve geçmişi — hedefin, odak bölgelerin, hassas eklemlerin, haftalık takvimin, programın, tamamladığın seanslar ve zorlanma puanların, rozetlerin ve ayarların.",
+       "Sağlıkla ilgili bilgiler — Apple Sağlık'tan okunan değerler (aşağıya bakın), sağlık taraması yanıtların, yaş aralığın, isteğe bağlı boyun/kalça ölçülerin ve kondisyon öz testi sonuçların. Bunlar yalnızca cihazında; iCloud ve cihaz yedeklemelerinin dışında tutulan ve iPhone'un kilitliyken korunan bir depolama alanında saklanır."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "iCloud eşzamanlama",
+    "blocks": [
+     {
+      "p": "iCloud açıksa antrenman tercihlerin, programın ve seans geçmişin, kendi özel iCloud veritabanın (Apple'ın CloudKit'i) aracılığıyla cihazların arasında eşzamanlanır. Geliştirici bu verilere erişemez. Sağlık verileri asla iCloud'da saklanmaz — Apple Sağlık değerleri, tarama yanıtları, yaş, ölçüler ve vücut analizi sonuçları dahil hiçbiri. iCloud kapalıysa her şey cihazda kalır."
+     }
+    ]
+   },
+   {
+    "title": "Apple Sağlık",
+    "blocks": [
+     {
+      "p": "İznin olursa uygulama; programını kişiselleştirmek, vücut analizini tahmin etmek ve bir hazır olma puanı hesaplamak için boy, kilo, vücut yağ oranı, bel çevresi, kalp atış hızı, dinlenme nabzı, kalp atış hızı değişkenliği, VO2 maks, uyku, adım, aktif enerji, antrenmanlar, biyolojik cinsiyet ve doğum tarihi verilerini okur. Atleva'da tamamladığın antrenmanları (tahmini bir aktif enerji değeriyle) ve girdiğin vücut ölçülerini yazar. Sağlık verileri yalnızca uygulamadaki bu özellikleri sunmak için kullanılır. Hiçbir zaman reklam veya pazarlama için kullanılmaz, satılmaz ve üçüncü taraflarla paylaşılmaz. İzinleri istediğin zaman Sağlık uygulamasından veya iOS Ayarlar'dan değiştirebilirsin."
+     }
+    ]
+   },
+   {
+    "title": "Apple Intelligence",
+    "blocks": [
+     {
+      "p": "Desteklenen cihazlarda (Apple Intelligence'lı iOS 26 veya üzeri), isteğe bağlı koç özellikleri Apple'ın cihaz üzerinde çalışan dil modelini kullanır. İstemler ve yanıtlar cihazında işlenir; saklanmaz, geliştiriciye veya herhangi bir üçüncü tarafa gönderilmez. Private Cloud Compute ve harici yapay zekâ hizmetleri kullanılmaz."
+     }
+    ]
+   },
+   {
+    "title": "Bildirimler",
+    "blocks": [
+     {
+      "p": "İsteğe bağlı antrenman hatırlatıcıları cihazında yerel olarak planlanır. Pazarlama bildirimi gönderilmez."
+     }
+    ]
+   },
+   {
+    "title": "Satın alımlar",
+    "blocks": [
+     {
+      "p": "Abonelikler Apple tarafından App Store üzerinden işlenir. Geliştirici ödeme bilgilerini almaz. Uygulama, abonelik durumunu cihazında Apple'ın StoreKit'i ile kontrol eder."
+     }
+    ]
+   },
+   {
+    "title": "Çocuklar",
+    "blocks": [
+     {
+      "p": "Atleva 13 yaşından küçük çocuklara yönelik değildir. 18 yaşından küçüksen uygulama daha temkinli antrenman sınırları uygular."
+     }
+    ]
+   },
+   {
+    "title": "Verilerini silme",
+    "blocks": [
+     {
+      "p": "Ayarlar → \"Tüm verilerimi sil\", cihazdaki ve iCloud'undaki programını, seanslarını ve ayarlarını kalıcı olarak siler. Apple Sağlık'a kaydedilen antrenmanlar ve ölçüler orada kalır; bunları Sağlık uygulamasından silebilirsin. Uygulamayı silmek de cihazdaki verilerini kaldırır."
+     }
+    ]
+   },
+   {
+    "title": "Bu web sitesi",
+    "blocks": [
+     {
+      "p": "Bu web sitesinde analiz aracı, çerez, harici yazı tipi veya üçüncü taraf komut dosyası yoktur. Dil tercihin yalnızca tarayıcında saklanır. Site GitHub Pages üzerinde barındırılır; GitHub Pages, her web barındırma hizmeti gibi, sayfaları sunabilmek için IP adresini işler."
+     }
+    ]
+   },
+   {
+    "title": "Değişiklikler",
+    "blocks": [
+     {
+      "p": "Bu politika değişirse yeni sürüm, yeni bir tarihle https://atleva.ardasnturk.com/privacy/ adresinde yayımlanır."
+     }
+    ]
+   },
+   {
+    "title": "İletişim",
+    "blocks": [
+     {
+      "p": "Bu politikayla ilgili sorular için: support@ardasnturk.com. Geliştirici: Arda Şentürk."
+     }
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "title": "Kullanım Koşulları",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva, sana Apple'ın Standart Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) kapsamında lisanslanır. Bu koşullar, Atleva'ya özgü birkaç noktayı ekler."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Sağlık uyarısı",
+    "blocks": [
+     {
+      "p": "Atleva, sağlıklı yetişkinler için genel fitness bilgileri sunar. Tıbbi bir cihaz değildir ve herhangi bir rahatsızlığı teşhis etmez, tedavi etmez veya önlemez. Bir egzersiz programına başlamadan önce, özellikle bir sağlık sorunun varsa, hamileysen veya bir sakatlıktan iyileşiyorsan bir doktora danış. Ağrı, baş dönmesi, göğüste rahatsızlık veya nefes darlığı hissedersen egzersizi bırak ve tıbbi destek al. Acil bir durumda bulunduğun yerdeki acil durum numarasını ara."
+     }
+    ]
+   },
+   {
+    "title": "Tahminler",
+    "blocks": [
+     {
+      "p": "VKİ, enerji harcaması, vücut yağ oranı, hazırlık ve benzeri değerler, yayımlanmış formüllere ve girdiğin verilere dayanan tahminlerdir. Tıbbi ölçüm değildirler."
+     }
+    ]
+   },
+   {
+    "title": "Güvenli antrenman",
+    "blocks": [
+     {
+      "p": "Çevrende yeterli boş alan bırak, kaymayan bir zemin kullan ve yalnızca sağlam ve sabit ev eşyalarından (duvar, sandalye veya kanepe, masa, havlu) yardım al. Kendi sınırların içinde antrenman yapmak senin sorumluluğundadır."
+     }
+    ]
+   },
+   {
+    "title": "Atleva Pro aboneliği",
+    "blocks": [
+     {
+      "ul": [
+       "Atleva Pro, aylık veya yıllık olarak sunulan, otomatik yenilenen bir aboneliktir. Yıllık plan ücretsiz deneme içerebilir; abonelik satın aldığında denemenin kullanılmayan kısmı sona erer.",
+       "Ödeme, satın alma onaylandığında Apple Hesabından alınır. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse aynı fiyatla otomatik olarak yenilenir. Yenileme ücreti, dönemin bitiminden önceki 24 saat içinde hesabından alınır.",
+       "Aboneliğini istediğin zaman App Store hesap ayarlarından yönetebilir veya iptal edebilirsin. Satın alımlar, aynı Apple Hesabıyla başka bir cihazda Ayarlar → Satın alımları geri yükle üzerinden geri yüklenebilir."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İletişim",
+    "blocks": [
+     {
+      "p": "Arda Şentürk · support@ardasnturk.com"
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Destek",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Sorun, geri bildirim ya da bir problem mi var? support@ardasnturk.com adresine e-posta gönder. Lütfen paylaşmak istemediğin sağlık bilgilerini gönderme."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Verilerim nerede?",
+    "blocks": [
+     {
+      "p": "iPhone'unda. iCloud açıksa programın, seansların ve tercihlerin ayrıca kendi özel iCloud'un üzerinden eşzamanlanır. Sağlık verileri asla iCloud'a gitmez. Atleva'nın hesabı ve sunucusu olmadığı için verilerini göremez veya kurtaramayız."
+     }
+    ]
+   },
+   {
+    "title": "Yeni bir iPhone'a nasıl geçerim?",
+    "blocks": [
+     {
+      "p": "Aynı Apple Hesabıyla giriş yap ve Atleva için iCloud'u aç: programın ve seans geçmişin de seninle gelir. Sağlık verileri Apple Sağlık'ta kalır ve Apple Sağlık bunları kendisi eşzamanlar."
+     }
+    ]
+   },
+   {
+    "title": "Verilerimi nasıl silerim?",
+    "blocks": [
+     {
+      "p": "Ayarlar → Tüm verilerimi sil. Bu işlem programını, seanslarını ve ayarlarını cihazdan ve iCloud'dan kaldırır. Apple Sağlık'a kaydedilen antrenmanlar ve ölçüler orada kalır; bunları Sağlık uygulamasından silebilirsin."
+     }
+    ]
+   },
+   {
+    "title": "Apple Sağlık çalışmıyor",
+    "blocks": [
+     {
+      "p": "Atleva'da Ayarlar → Apple Sağlık → Sağlık izinlerini gözden geçir'i aç ya da Sağlık uygulaması → profilin → Uygulamalar → Atleva yolunu izle ve hangi veri türlerine izin verildiğini kontrol et."
+     }
+    ]
+   },
+   {
+    "title": "Bir hareket çok zor geliyor veya canımı acıtıyor",
+    "blocks": [
+     {
+      "p": "Antrenman sırasında Daha kolay seçeneğiyle daha basit bir versiyona geç ya da hareketi atla. Riskli hareketlerin değiştirilmesi için hassas eklemlerini Plan → Planı düzenle bölümünde işaretle. Bir yerin acıyorsa dur ve bir doktora danış."
+     }
+    ]
+   },
+   {
+    "title": "Atleva Pro'yu geri yükleme veya iptal etme",
+    "blocks": [
+     {
+      "p": "Geri yükleme: Ayarlar → Satın alımları geri yükle. İptal: Ayarlar → Aboneliği yönet ya da App Store hesap ayarların; mevcut dönemin bitiminden en az 24 saat önce."
+     }
+    ]
+   },
+   {
+    "title": "Yapay zekâ koçu kullanılamıyor",
+    "blocks": [
+     {
+      "p": "Koç için iOS 26 veya üzeri, Apple Intelligence'ı destekleyen bir iPhone ve iOS Ayarlar'da Apple Intelligence'ın açık olması gerekir."
+     }
+    ]
+   }
+  ]
+ }
+}

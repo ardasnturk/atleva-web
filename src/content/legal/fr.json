@@ -1,0 +1,234 @@
+{
+ "privacy": {
+  "title": "Politique de confidentialité",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva (« l’app ») est une app d’entraînement à la maison pour iPhone. Cette politique explique quelles données l’app utilise et où elles vont. En bref : nous ne collectons pas vos données. Il n’y a ni compte, ni outil d’analyse, ni publicité, ni pistage."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Données que nous collectons",
+    "blocks": [
+     {
+      "p": "Aucune. Le développeur n’exploite aucun serveur pour l’app et ne reçoit aucune donnée personnelle de sa part."
+     }
+    ]
+   },
+   {
+    "title": "Données que l’app stocke sur votre appareil",
+    "blocks": [
+     {
+      "ul": [
+       "Préférences et historique d’entraînement — votre objectif, vos zones ciblées, vos articulations sensibles, votre planning, votre programme, vos séances terminées et vos notes d’effort, vos badges et vos réglages.",
+       "Informations liées à la santé — les valeurs lues dans Apple Santé (voir ci-dessous), vos réponses au questionnaire de santé, une tranche d’âge, des mesures facultatives du tour de cou et du tour de hanches et les résultats des auto-tests de condition physique. Elles sont stockées uniquement sur votre appareil, dans un espace exclu d’iCloud et des sauvegardes de l’appareil, et protégé lorsque votre iPhone est verrouillé."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Synchronisation iCloud",
+    "blocks": [
+     {
+      "p": "Si iCloud est activé, vos préférences d’entraînement, votre programme et l’historique de vos séances se synchronisent entre vos appareils via votre propre base de données iCloud privée (CloudKit d’Apple). Le développeur ne peut pas y accéder. Les données de santé ne sont jamais stockées dans iCloud — ni valeurs Apple Santé, ni réponses au questionnaire, ni âge, ni mesures, ni résultats d’analyse corporelle. Si iCloud est désactivé, tout reste sur l’appareil."
+     }
+    ]
+   },
+   {
+    "title": "Apple Santé",
+    "blocks": [
+     {
+      "p": "Avec votre autorisation, l’app lit la taille, le poids, le pourcentage de masse grasse, le tour de taille, la fréquence cardiaque, la fréquence cardiaque au repos, la variabilité de la fréquence cardiaque, la VO2 max, le sommeil, les pas, l’énergie active, les entraînements, le sexe biologique et la date de naissance, afin de personnaliser votre programme, d’estimer votre analyse corporelle et de calculer un score de forme. Elle enregistre les entraînements que vous terminez dans Atleva (avec une estimation de l’énergie active) et les mensurations que vous saisissez. Les données de santé servent uniquement à fournir ces fonctionnalités dans l’app. Elles ne sont jamais utilisées à des fins publicitaires ou marketing, jamais vendues et jamais partagées avec des tiers. Vous pouvez modifier les autorisations à tout moment dans l’app Santé ou dans les Réglages d’iOS."
+     }
+    ]
+   },
+   {
+    "title": "Apple Intelligence",
+    "blocks": [
+     {
+      "p": "Sur les appareils compatibles (iOS 26 ou ultérieur avec Apple Intelligence), les fonctionnalités facultatives du coach utilisent le modèle de langage d’Apple exécuté sur l’appareil. Les requêtes et les réponses sont traitées sur votre appareil ; elles ne sont pas stockées et ne sont envoyées ni au développeur ni à aucun tiers. Ni Private Cloud Compute ni aucun service d’IA externe ne sont utilisés."
+     }
+    ]
+   },
+   {
+    "title": "Notifications",
+    "blocks": [
+     {
+      "p": "Les rappels d’entraînement facultatifs sont programmés localement sur votre appareil. Aucune notification marketing n’est envoyée."
+     }
+    ]
+   },
+   {
+    "title": "Achats",
+    "blocks": [
+     {
+      "p": "Les abonnements sont traités par Apple via l’App Store. Le développeur ne reçoit pas vos informations de paiement. L’app vérifie le statut de votre abonnement auprès de StoreKit d’Apple, sur votre appareil."
+     }
+    ]
+   },
+   {
+    "title": "Enfants",
+    "blocks": [
+     {
+      "p": "Atleva ne s’adresse pas aux enfants de moins de 13 ans. Si vous avez moins de 18 ans, l’app applique des limites d’entraînement plus prudentes."
+     }
+    ]
+   },
+   {
+    "title": "Suppression de vos données",
+    "blocks": [
+     {
+      "p": "Réglages → « Supprimer toutes mes données » supprime définitivement votre programme, vos séances et vos réglages sur l’appareil et dans votre iCloud. Les entraînements et mensurations enregistrés dans Apple Santé y restent ; supprimez-les dans l’app Santé. Supprimer l’app efface également ses données sur l’appareil."
+     }
+    ]
+   },
+   {
+    "title": "Ce site web",
+    "blocks": [
+     {
+      "p": "Ce site n’utilise ni outil d’analyse, ni cookies, ni polices externes, ni scripts tiers. Votre choix de langue est stocké uniquement dans votre navigateur. Le site est hébergé sur GitHub Pages qui, comme tout hébergeur web, traite votre adresse IP pour diffuser les pages."
+     }
+    ]
+   },
+   {
+    "title": "Modifications",
+    "blocks": [
+     {
+      "p": "Si cette politique change, la nouvelle version sera publiée sur https://atleva.ardasnturk.com/privacy/ avec une nouvelle date."
+     }
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     {
+      "p": "Questions sur cette politique : support@ardasnturk.com. Développeur : Arda Şentürk."
+     }
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "title": "Conditions d’utilisation",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva vous est concédé sous licence selon le Contrat de licence utilisateur final standard d’Apple pour les applications sous licence (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Les présentes conditions ajoutent quelques points propres à Atleva."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Avertissement santé",
+    "blocks": [
+     {
+      "p": "Atleva fournit des informations générales de remise en forme destinées aux adultes en bonne santé. Ce n’est pas un dispositif médical et il ne diagnostique, ne traite ni ne prévient aucune affection. Consultez un médecin avant de commencer un programme d’exercice, en particulier si vous avez un problème de santé, êtes enceinte ou vous remettez d’une blessure. Arrêtez l’exercice et demandez un avis médical si vous ressentez une douleur, des vertiges, une gêne thoracique ou un essoufflement. En cas d’urgence, appelez le numéro d’urgence local."
+     }
+    ]
+   },
+   {
+    "title": "Estimations",
+    "blocks": [
+     {
+      "p": "L’IMC, la dépense énergétique, la masse grasse, la forme du jour et les valeurs similaires sont des estimations fondées sur des formules publiées et sur les données que vous fournissez. Ce ne sont pas des mesures médicales."
+     }
+    ]
+   },
+   {
+    "title": "S’entraîner en sécurité",
+    "blocks": [
+     {
+      "p": "Dégagez suffisamment d’espace autour de vous, utilisez une surface antidérapante et n’utilisez comme aides du quotidien (un mur, une chaise ou un canapé, une table, une serviette) que des éléments solides et stables. Vous êtes responsable de vous entraîner dans vos propres limites."
+     }
+    ]
+   },
+   {
+    "title": "Abonnement Atleva Pro",
+    "blocks": [
+     {
+      "ul": [
+       "Atleva Pro est un abonnement à renouvellement automatique, proposé au mois ou à l’année. L’offre annuelle peut inclure un essai gratuit ; toute partie inutilisée de l’essai est perdue lorsque vous souscrivez un abonnement.",
+       "Le paiement est débité de votre compte Apple à la confirmation de l’achat. L’abonnement se renouvelle automatiquement au même prix, sauf résiliation au moins 24 heures avant la fin de la période en cours. Le renouvellement est débité de votre compte dans les 24 heures précédant la fin de la période.",
+       "Gérez ou résiliez l’abonnement à tout moment dans les réglages de votre compte App Store. Les achats peuvent être restaurés sur un autre appareil utilisant le même compte Apple via Réglages → Restaurer les achats."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     {
+      "p": "Arda Şentürk · support@ardasnturk.com"
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Assistance",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Une question, une suggestion ou un problème ? Écrivez à support@ardasnturk.com. Merci de ne pas envoyer d’informations de santé que vous ne souhaitez pas partager."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Où sont mes données ?",
+    "blocks": [
+     {
+      "p": "Sur votre iPhone. Si iCloud est activé, votre programme, vos séances et vos préférences se synchronisent aussi via votre propre iCloud privé. Les données de santé ne vont jamais dans iCloud. Atleva n’a ni compte ni serveur : nous ne pouvons donc ni voir ni récupérer vos données."
+     }
+    ]
+   },
+   {
+    "title": "Comment passer à un nouvel iPhone ?",
+    "blocks": [
+     {
+      "p": "Connectez-vous avec le même compte Apple et activez iCloud pour Atleva : votre programme et l’historique de vos séances vous suivent. Les données de santé restent dans Apple Santé, qui les synchronise de son côté."
+     }
+    ]
+   },
+   {
+    "title": "Comment supprimer mes données ?",
+    "blocks": [
+     {
+      "p": "Réglages → Supprimer toutes mes données. Cela efface votre programme, vos séances et vos réglages de l’appareil et d’iCloud. Les entraînements et mensurations enregistrés dans Apple Santé y restent ; supprimez-les dans l’app Santé."
+     }
+    ]
+   },
+   {
+    "title": "Apple Santé ne fonctionne pas",
+    "blocks": [
+     {
+      "p": "Ouvrez Réglages → Apple Santé → Vérifier les autorisations Santé dans Atleva, ou l’app Santé → votre profil → Apps → Atleva, et vérifiez quels types de données sont autorisés."
+     }
+    ]
+   },
+   {
+    "title": "Un exercice est trop difficile ou fait mal",
+    "blocks": [
+     {
+      "p": "Utilisez Plus facile pendant la séance pour passer à une version plus simple, ou passez le mouvement. Signalez vos articulations sensibles dans Programme → Modifier le plan pour que les mouvements à risque soient remplacés. Si quelque chose vous fait mal, arrêtez-vous et parlez-en à un médecin."
+     }
+    ]
+   },
+   {
+    "title": "Restaurer ou résilier Atleva Pro",
+    "blocks": [
+     {
+      "p": "Restaurer : Réglages → Restaurer les achats. Résilier : Réglages → Gérer l'abonnement, ou les réglages de votre compte App Store, au moins 24 heures avant la fin de la période en cours."
+     }
+    ]
+   },
+   {
+    "title": "Le coach IA n’est pas disponible",
+    "blocks": [
+     {
+      "p": "Le coach nécessite iOS 26 ou ultérieur, un iPhone compatible avec Apple Intelligence et l’activation d’Apple Intelligence dans les Réglages d’iOS."
+     }
+    ]
+   }
+  ]
+ }
+}

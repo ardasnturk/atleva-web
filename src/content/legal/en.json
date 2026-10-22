@@ -1,0 +1,234 @@
+{
+ "privacy": {
+  "title": "Privacy Policy",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva (\"the app\") is a home workout app for iPhone. This policy explains what data the app uses and where it goes. Short version: we don't collect your data. There are no accounts, no analytics, no ads and no tracking."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Data we collect",
+    "blocks": [
+     {
+      "p": "None. The developer does not operate servers for the app and receives no personal data from it."
+     }
+    ]
+   },
+   {
+    "title": "Data the app stores on your device",
+    "blocks": [
+     {
+      "ul": [
+       "Training preferences and history — your goal, focus areas, sensitive joints, schedule, plan, completed sessions and effort ratings, badges and settings.",
+       "Health-related information — values read from Apple Health (see below), your health-screening answers, an age bracket, optional neck/hip measurements and fitness self-test results. These are stored only on your device, in storage that is excluded from iCloud and device backups and protected while your iPhone is locked."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "iCloud sync",
+    "blocks": [
+     {
+      "p": "If iCloud is turned on, your training preferences, plan and session history sync between your devices through your own private iCloud database (Apple's CloudKit). The developer cannot access it. Health data is never stored in iCloud — no Apple Health values, screening answers, age, measurements or body-analysis results. If iCloud is off, everything stays on the device."
+     }
+    ]
+   },
+   {
+    "title": "Apple Health",
+    "blocks": [
+     {
+      "p": "With your permission the app reads height, weight, body-fat percentage, waist circumference, heart rate, resting heart rate, heart-rate variability, VO2 max, sleep, steps, active energy, workouts, biological sex and date of birth, to personalize your plan, estimate your body analysis and calculate a readiness score. It writes the workouts you complete in Atleva (with an estimated active-energy value) and the body measurements you enter. Health data is used only to provide these features in the app. It is never used for advertising or marketing, never sold, and never shared with third parties. You can change permissions any time in the Health app or iOS Settings."
+     }
+    ]
+   },
+   {
+    "title": "Apple Intelligence",
+    "blocks": [
+     {
+      "p": "On supported devices (iOS 26 or later with Apple Intelligence), optional coach features use Apple's on-device language model. Prompts and replies are processed on your device and are not stored or sent to the developer or any third party. Private Cloud Compute and external AI services are not used."
+     }
+    ]
+   },
+   {
+    "title": "Notifications",
+    "blocks": [
+     {
+      "p": "Optional workout reminders are scheduled locally on your device. No marketing notifications are sent."
+     }
+    ]
+   },
+   {
+    "title": "Purchases",
+    "blocks": [
+     {
+      "p": "Subscriptions are processed by Apple through the App Store. The developer does not receive your payment details. The app checks your subscription status with Apple's StoreKit on your device."
+     }
+    ]
+   },
+   {
+    "title": "Children",
+    "blocks": [
+     {
+      "p": "Atleva is not directed at children under 13. If you are under 18, the app uses more conservative training limits."
+     }
+    ]
+   },
+   {
+    "title": "Deleting your data",
+    "blocks": [
+     {
+      "p": "Settings → \"Delete all my data\" permanently deletes your plan, sessions and settings on the device and in your iCloud. Workouts and measurements saved to Apple Health stay there; delete them in the Health app. Deleting the app also removes its on-device data."
+     }
+    ]
+   },
+   {
+    "title": "This website",
+    "blocks": [
+     {
+      "p": "This website has no analytics, cookies, external fonts or third-party scripts. Your language choice is stored only in your browser. The site is hosted on GitHub Pages, which, like any web host, processes your IP address to deliver the pages."
+     }
+    ]
+   },
+   {
+    "title": "Changes",
+    "blocks": [
+     {
+      "p": "If this policy changes, the new version will be published at https://atleva.ardasnturk.com/privacy/ with a new date."
+     }
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     {
+      "p": "Questions about this policy: support@ardasnturk.com. Developer: Arda Şentürk."
+     }
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "title": "Terms of Use",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva is licensed to you under Apple's Standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These terms add a few points specific to Atleva."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Health notice",
+    "blocks": [
+     {
+      "p": "Atleva provides general fitness information for healthy adults. It is not a medical device and does not diagnose, treat or prevent any condition. Consult a doctor before starting an exercise program, especially if you have a health condition, are pregnant or are recovering from an injury. Stop exercising and seek medical advice if you feel pain, dizziness, chest discomfort or shortness of breath. In an emergency, call your local emergency number."
+     }
+    ]
+   },
+   {
+    "title": "Estimates",
+    "blocks": [
+     {
+      "p": "BMI, energy expenditure, body fat, readiness and similar values are estimates based on published formulas and the data you provide. They are not medical measurements."
+     }
+    ]
+   },
+   {
+    "title": "Training safely",
+    "blocks": [
+     {
+      "p": "Clear enough space around you, use a non-slip surface and only use household helpers (a wall, a chair or couch, a table, a towel) that are sturdy and stable. You are responsible for training within your own limits."
+     }
+    ]
+   },
+   {
+    "title": "Atleva Pro subscription",
+    "blocks": [
+     {
+      "ul": [
+       "Atleva Pro is an auto-renewable subscription available monthly or yearly. The yearly plan may include a free trial; any unused part of a trial is forfeited when you buy a subscription.",
+       "Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically at the same price unless it is cancelled at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours before the end of the period.",
+       "Manage or cancel in your App Store account settings at any time. Purchases can be restored on another device with the same Apple Account via Settings → Restore purchases."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     {
+      "p": "Arda Şentürk · support@ardasnturk.com"
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Support",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Questions, feedback or a problem? Email support@ardasnturk.com. Please don't send health information you don't want to share."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Where is my data?",
+    "blocks": [
+     {
+      "p": "On your iPhone. If iCloud is on, your plan, sessions and preferences also sync through your own private iCloud. Health data never goes to iCloud. Atleva has no account and no server, so we can't see or recover your data."
+     }
+    ]
+   },
+   {
+    "title": "How do I move to a new iPhone?",
+    "blocks": [
+     {
+      "p": "Sign in with the same Apple Account and turn on iCloud for Atleva: your plan and session history come along. Health data stays in Apple Health, which syncs it on its own."
+     }
+    ]
+   },
+   {
+    "title": "How do I delete my data?",
+    "blocks": [
+     {
+      "p": "Settings → Delete all my data. This removes your plan, sessions and settings from the device and from iCloud. Workouts and measurements saved to Apple Health stay there; delete them in the Health app."
+     }
+    ]
+   },
+   {
+    "title": "Apple Health is not working",
+    "blocks": [
+     {
+      "p": "Open Settings → Apple Health → Review Health permissions in Atleva, or the Health app → your profile → Apps → Atleva, and check which data types are allowed."
+     }
+    ]
+   },
+   {
+    "title": "An exercise is too hard or hurts",
+    "blocks": [
+     {
+      "p": "Use Easier in the workout to switch to a simpler version, or skip the move. Mark sensitive joints under Plan → Edit plan so risky moves are swapped out. If something hurts, stop and talk to a doctor."
+     }
+    ]
+   },
+   {
+    "title": "Restore or cancel Atleva Pro",
+    "blocks": [
+     {
+      "p": "Restore: Settings → Restore purchases. Cancel: Settings → Manage subscription, or your App Store account settings, at least 24 hours before the end of the current period."
+     }
+    ]
+   },
+   {
+    "title": "The AI coach is not available",
+    "blocks": [
+     {
+      "p": "The coach needs iOS 26 or later, an iPhone that supports Apple Intelligence, and Apple Intelligence turned on in iOS Settings."
+     }
+    ]
+   }
+  ]
+ }
+}

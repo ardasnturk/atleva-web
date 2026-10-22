@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Apple SD Gothic Neo", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  /* Atleva's in-app palette (DesignSystem/Tokens.swift in the app). */
+  --color-ink: #13201c;
+  --color-ink-deep: #0b1411;
+  --color-paper: #f5f8f6;
+  --color-brand: #00a67a;
+  --color-brand-text: #007a5a;
+  --color-brand-light: #4fe3b2;
+  --color-brand-soft: #d7f5ea;
+  --color-mint: #8edfc4;
+  --color-energy: #ffb020;
+  --color-energy-soft: #fff1d6;
+  --color-mist: #e6eeeb;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  @apply bg-paper text-ink antialiased dark:bg-ink-deep dark:text-paper;
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  @apply rounded-md outline-2 outline-offset-2 outline-brand;
+}

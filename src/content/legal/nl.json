@@ -1,0 +1,234 @@
+{
+ "privacy": {
+  "title": "Privacybeleid",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva (\"de app\") is een app voor thuisworkouts voor iPhone. Dit beleid legt uit welke gegevens de app gebruikt en waar ze naartoe gaan. Kort gezegd: we verzamelen je gegevens niet. Er zijn geen accounts, geen analytics, geen advertenties en geen tracking."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Gegevens die we verzamelen",
+    "blocks": [
+     {
+      "p": "Geen. De ontwikkelaar beheert geen servers voor de app en ontvangt via de app geen persoonsgegevens."
+     }
+    ]
+   },
+   {
+    "title": "Gegevens die de app op je apparaat bewaart",
+    "blocks": [
+     {
+      "ul": [
+       "Trainingsvoorkeuren en -geschiedenis – je doel, focuszones, gevoelige gewrichten, schema, plan, voltooide sessies en inspanningsbeoordelingen, badges en instellingen.",
+       "Gezondheidsgerelateerde informatie – waarden uit Apple Health (zie hieronder), je antwoorden op de gezondheidscheck, een leeftijdscategorie, optionele nek-/heupmaten en resultaten van fitheidszelftests. Deze worden alleen op je apparaat bewaard, in opslag die is uitgesloten van iCloud en apparaatbackups en die beveiligd is zolang je iPhone vergrendeld is."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "iCloud-synchronisatie",
+    "blocks": [
+     {
+      "p": "Als iCloud aanstaat, worden je trainingsvoorkeuren, plan en sessiegeschiedenis tussen je apparaten gesynchroniseerd via je eigen privé-iCloud-database (CloudKit van Apple). De ontwikkelaar heeft hier geen toegang toe. Gezondheidsgegevens worden nooit in iCloud opgeslagen – geen waarden uit Apple Health, antwoorden op de gezondheidscheck, leeftijd, maten of resultaten van de lichaamsanalyse. Als iCloud uitstaat, blijft alles op het apparaat."
+     }
+    ]
+   },
+   {
+    "title": "Apple Health",
+    "blocks": [
+     {
+      "p": "Met je toestemming leest de app lengte, gewicht, vetpercentage, tailleomtrek, hartslag, rusthartslag, hartslagvariabiliteit, VO2 max, slaap, stappen, actieve energie, workouts, biologisch geslacht en geboortedatum, om je plan te personaliseren, je lichaamsanalyse te schatten en een paraatheidsscore te berekenen. De app schrijft de workouts die je in Atleva voltooit (met een geschatte waarde voor actieve energie) en de lichaamsmaten die je invoert naar Gezondheid. Gezondheidsgegevens worden alleen gebruikt om deze functies in de app te bieden. Ze worden nooit gebruikt voor advertenties of marketing, nooit verkocht en nooit gedeeld met derden. Je kunt de toestemmingen altijd wijzigen in de Gezondheid-app of in de iOS-instellingen."
+     }
+    ]
+   },
+   {
+    "title": "Apple Intelligence",
+    "blocks": [
+     {
+      "p": "Op ondersteunde apparaten (iOS 26 of nieuwer met Apple Intelligence) gebruiken optionele coachfuncties het taalmodel van Apple op het apparaat. Prompts en antwoorden worden op je apparaat verwerkt en worden niet opgeslagen of naar de ontwikkelaar of derden gestuurd. Private Cloud Compute en externe AI-diensten worden niet gebruikt."
+     }
+    ]
+   },
+   {
+    "title": "Meldingen",
+    "blocks": [
+     {
+      "p": "Optionele workoutherinneringen worden lokaal op je apparaat ingepland. Er worden geen marketingmeldingen verstuurd."
+     }
+    ]
+   },
+   {
+    "title": "Aankopen",
+    "blocks": [
+     {
+      "p": "Abonnementen worden door Apple verwerkt via de App Store. De ontwikkelaar ontvangt je betaalgegevens niet. De app controleert de status van je abonnement met StoreKit van Apple op je apparaat."
+     }
+    ]
+   },
+   {
+    "title": "Kinderen",
+    "blocks": [
+     {
+      "p": "Atleva is niet bedoeld voor kinderen jonger dan 13 jaar. Als je jonger bent dan 18, gebruikt de app voorzichtigere trainingslimieten."
+     }
+    ]
+   },
+   {
+    "title": "Je gegevens verwijderen",
+    "blocks": [
+     {
+      "p": "Instellingen → \"Verwijder al mijn gegevens\" verwijdert je plan, sessies en instellingen definitief van het apparaat en uit je iCloud. Workouts en maten die in Apple Health zijn opgeslagen, blijven daar staan; verwijder ze in de Gezondheid-app. Als je de app verwijdert, worden ook de gegevens ervan op het apparaat verwijderd."
+     }
+    ]
+   },
+   {
+    "title": "Deze website",
+    "blocks": [
+     {
+      "p": "Deze website gebruikt geen analytics, cookies, externe lettertypen of scripts van derden. Je taalkeuze wordt alleen in je browser bewaard. De site wordt gehost op GitHub Pages, dat – zoals elke webhost – je IP-adres verwerkt om de pagina's te leveren."
+     }
+    ]
+   },
+   {
+    "title": "Wijzigingen",
+    "blocks": [
+     {
+      "p": "Als dit beleid verandert, wordt de nieuwe versie met een nieuwe datum gepubliceerd op https://atleva.ardasnturk.com/privacy/."
+     }
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     {
+      "p": "Vragen over dit beleid: support@ardasnturk.com. Ontwikkelaar: Arda Şentürk."
+     }
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "title": "Gebruiksvoorwaarden",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Atleva wordt aan je in licentie gegeven onder de Standaard Licentieovereenkomst voor Eindgebruikers van Gelicentieerde Apps van Apple (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Deze voorwaarden voegen een paar punten toe die specifiek voor Atleva gelden."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Gezondheidsinformatie",
+    "blocks": [
+     {
+      "p": "Atleva biedt algemene fitnessinformatie voor gezonde volwassenen. Het is geen medisch hulpmiddel en stelt geen diagnoses, behandelt geen aandoeningen en voorkomt ze niet. Raadpleeg een arts voordat je aan een trainingsprogramma begint, vooral als je een gezondheidsprobleem hebt, zwanger bent of herstelt van een blessure. Stop met trainen en vraag medisch advies als je pijn, duizeligheid, een beklemmend gevoel op de borst of kortademigheid hebt. Bel in een noodgeval het lokale alarmnummer."
+     }
+    ]
+   },
+   {
+    "title": "Schattingen",
+    "blocks": [
+     {
+      "p": "BMI, energieverbruik, vetpercentage, paraatheid en vergelijkbare waarden zijn schattingen op basis van gepubliceerde formules en de gegevens die je invoert. Het zijn geen medische metingen."
+     }
+    ]
+   },
+   {
+    "title": "Veilig trainen",
+    "blocks": [
+     {
+      "p": "Maak genoeg ruimte om je heen vrij, gebruik een antislipondergrond en gebruik alleen huishoudhulpjes (een muur, een stoel of bank, een tafel, een handdoek) die stevig en stabiel zijn. Je bent zelf verantwoordelijk voor trainen binnen je eigen grenzen."
+     }
+    ]
+   },
+   {
+    "title": "Atleva Pro-abonnement",
+    "blocks": [
+     {
+      "ul": [
+       "Atleva Pro is een automatisch verlengend abonnement, beschikbaar per maand of per jaar. Het jaarabonnement kan een gratis proefperiode bevatten; een ongebruikt deel van een proefperiode vervalt wanneer je een abonnement koopt.",
+       "De betaling wordt bij bevestiging van de aankoop via je Apple Account in rekening gebracht. Het abonnement wordt automatisch tegen dezelfde prijs verlengd, tenzij het minstens 24 uur voor het einde van de lopende periode wordt opgezegd. De verlenging wordt binnen 24 uur voor het einde van de periode in rekening gebracht.",
+       "Beheer of annuleer het op elk moment in de instellingen van je App Store-account. Aankopen kunnen op een ander apparaat met hetzelfde Apple Account worden hersteld via Instellingen → Aankopen herstellen."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     {
+      "p": "Arda Şentürk · support@ardasnturk.com"
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Support",
+  "updated": "2026-10-22",
+  "intro": [
+   {
+    "p": "Vragen, feedback of een probleem? Mail naar support@ardasnturk.com. Stuur geen gezondheidsinformatie die je niet wilt delen."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Waar staan mijn gegevens?",
+    "blocks": [
+     {
+      "p": "Op je iPhone. Als iCloud aanstaat, worden je plan, sessies en voorkeuren ook gesynchroniseerd via je eigen privé-iCloud. Gezondheidsgegevens gaan nooit naar iCloud. Atleva heeft geen account en geen server, dus we kunnen je gegevens niet zien of herstellen."
+     }
+    ]
+   },
+   {
+    "title": "Hoe zet ik alles over naar een nieuwe iPhone?",
+    "blocks": [
+     {
+      "p": "Log in met hetzelfde Apple Account en zet iCloud aan voor Atleva: je plan en sessiegeschiedenis gaan mee. Gezondheidsgegevens blijven in Apple Health, dat ze zelf synchroniseert."
+     }
+    ]
+   },
+   {
+    "title": "Hoe verwijder ik mijn gegevens?",
+    "blocks": [
+     {
+      "p": "Instellingen → Verwijder al mijn gegevens. Hiermee verwijder je je plan, sessies en instellingen van het apparaat en uit iCloud. Workouts en maten die in Apple Health zijn opgeslagen, blijven daar staan; verwijder ze in de Gezondheid-app."
+     }
+    ]
+   },
+   {
+    "title": "Apple Health werkt niet",
+    "blocks": [
+     {
+      "p": "Open in Atleva Instellingen → Apple Gezondheid → Gezondheidstoestemmingen bekijken, of open de Gezondheid-app → je profiel → Apps → Atleva, en controleer welke gegevenstypen zijn toegestaan."
+     }
+    ]
+   },
+   {
+    "title": "Een oefening is te zwaar of doet pijn",
+    "blocks": [
+     {
+      "p": "Gebruik Lichter tijdens de workout om over te schakelen naar een eenvoudigere variant, of sla de oefening over. Markeer gevoelige gewrichten onder Plan → Plan bewerken, zodat risicovolle oefeningen worden vervangen. Als iets pijn doet, stop dan en overleg met een arts."
+     }
+    ]
+   },
+   {
+    "title": "Atleva Pro herstellen of opzeggen",
+    "blocks": [
+     {
+      "p": "Herstellen: Instellingen → Aankopen herstellen. Opzeggen: Instellingen → Abonnement beheren, of in de instellingen van je App Store-account, minstens 24 uur voor het einde van de lopende periode."
+     }
+    ]
+   },
+   {
+    "title": "De AI-coach is niet beschikbaar",
+    "blocks": [
+     {
+      "p": "De coach vereist iOS 26 of nieuwer, een iPhone die Apple Intelligence ondersteunt en Apple Intelligence ingeschakeld in de iOS-instellingen."
+     }
+    ]
+   }
+  ]
+ }
+}
