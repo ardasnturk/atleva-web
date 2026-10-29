@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Política de privacidad",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
-    "p": "Atleva (“la app”) es una app de ejercicio en casa para iPhone. Esta política explica qué datos usa la app y a dónde van. En pocas palabras: no recopilamos tus datos. No hay cuentas, ni analíticas, ni anuncios, ni rastreo."
+    "p": "Atleva (“la app”) es una app de ejercicio en casa para iPhone. Esta política explica qué datos usa la app y a dónde van. En pocas palabras: no recopilamos tus datos personales. Además de la sincronización con iCloud, lo único que sale de tu dispositivo es el registro de tu suscripción (consulta Compras). No hay cuentas, ni analíticas, ni anuncios, ni rastreo."
    }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     "title": "Compras",
     "blocks": [
      {
-      "p": "Apple procesa las suscripciones a través del App Store. El desarrollador no recibe tus datos de pago. La app verifica el estado de tu suscripción con StoreKit de Apple en tu dispositivo."
+      "p": "Apple procesa las suscripciones a través del App Store. El desarrollador no recibe tus datos de pago. Para verificar tu suscripción, la app envía tus registros de compra del App Store y un identificador aleatorio creado por la app (no vinculado a tu nombre, correo ni Apple Account) a RevenueCat, nuestro proveedor de servicios de suscripción, que los verifica con Apple. No se envían datos de salud, de entrenamiento ni otros datos personales. Política de privacidad de RevenueCat: https://www.revenuecat.com/privacy"
      }
     ]
    },
@@ -111,7 +111,7 @@
  },
  "terms": {
   "title": "Términos de uso",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Atleva se te otorga bajo licencia conforme al Contrato de Licencia de Usuario Final de Aplicaciones con Licencia Estándar de Apple (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Estos términos agregan algunos puntos específicos de Atleva."
@@ -166,7 +166,7 @@
  },
  "support": {
   "title": "Soporte",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "¿Tienes preguntas, comentarios o algún problema? Escríbenos a support@ardasnturk.com. Por favor, no envíes información de salud que no quieras compartir."

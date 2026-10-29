@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Informativa sulla privacy",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
-    "p": "Atleva («l'app») è un'app di allenamento a casa per iPhone. Questa informativa spiega quali dati usa l'app e dove finiscono. In breve: non raccogliamo i tuoi dati. Non ci sono account, strumenti di analisi, pubblicità né tracciamento."
+    "p": "Atleva («l'app») è un'app di allenamento a casa per iPhone. Questa informativa spiega quali dati usa l'app e dove finiscono. In breve: non raccogliamo i tuoi dati personali. Oltre alla sincronizzazione iCloud, dal dispositivo esce solo la registrazione del tuo abbonamento (vedi Acquisti). Non ci sono account, strumenti di analisi, pubblicità né tracciamento."
    }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     "title": "Acquisti",
     "blocks": [
      {
-      "p": "Gli abbonamenti sono elaborati da Apple tramite App Store. Lo sviluppatore non riceve i tuoi dati di pagamento. L'app verifica lo stato del tuo abbonamento con StoreKit di Apple sul tuo dispositivo."
+      "p": "Gli abbonamenti sono elaborati da Apple tramite App Store. Lo sviluppatore non riceve i tuoi dati di pagamento. Per verificare il tuo abbonamento, l'app invia le ricevute di acquisto dell'App Store e un identificativo casuale creato dall'app (non collegato al tuo nome, alla tua email o al tuo Apple Account) a RevenueCat, il nostro fornitore di servizi per gli abbonamenti, che le verifica con Apple. Non vengono inviati dati sanitari, di allenamento o altri dati personali. Informativa sulla privacy di RevenueCat: https://www.revenuecat.com/privacy"
      }
     ]
    },
@@ -111,7 +111,7 @@
  },
  "terms": {
   "title": "Termini d'uso",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Atleva ti è concessa in licenza in base al Contratto di licenza standard di Apple con l'utente finale per le applicazioni concesse in licenza (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Questi termini aggiungono alcuni punti specifici di Atleva."
@@ -166,7 +166,7 @@
  },
  "support": {
   "title": "Supporto",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Domande, feedback o un problema? Scrivi a support@ardasnturk.com. Non inviare informazioni sulla salute che non vuoi condividere."

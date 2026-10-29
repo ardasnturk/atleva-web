@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Datenschutzerklärung",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
-    "p": "Atleva („die App“) ist eine App für Home-Workouts auf dem iPhone. Diese Erklärung beschreibt, welche Daten die App nutzt und wohin sie gelangen. Kurz gesagt: Wir erheben deine Daten nicht. Es gibt keine Konten, keine Analyse, keine Werbung und kein Tracking."
+    "p": "Atleva („die App“) ist eine App für Home-Workouts auf dem iPhone. Diese Erklärung beschreibt, welche Daten die App nutzt und wohin sie gelangen. Kurz gesagt: Wir erheben keine personenbezogenen Daten. Außer der iCloud-Synchronisierung verlässt nur dein Abo-Nachweis das Gerät (siehe Käufe). Es gibt keine Konten, keine Analyse, keine Werbung und kein Tracking."
    }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     "title": "Käufe",
     "blocks": [
      {
-      "p": "Abos werden von Apple über den App Store abgewickelt. Der Entwickler erhält deine Zahlungsdaten nicht. Die App prüft deinen Abo-Status mit Apples StoreKit auf deinem Gerät."
+      "p": "Abos werden von Apple über den App Store abgewickelt. Der Entwickler erhält deine Zahlungsdaten nicht. Zur Prüfung deines Abos sendet die App deine App-Store-Kaufbelege und eine von der App erzeugte Zufallskennung (nicht mit deinem Namen, deiner E-Mail-Adresse oder deinem Apple Account verknüpft) an RevenueCat, unseren Dienstleister für Abos, der sie bei Apple überprüft. Gesundheits-, Trainings- oder andere personenbezogene Daten werden nicht gesendet. Datenschutzerklärung von RevenueCat: https://www.revenuecat.com/privacy"
      }
     ]
    },
@@ -111,7 +111,7 @@
  },
  "terms": {
   "title": "Nutzungsbedingungen",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Atleva wird dir unter Apples Standard-Endbenutzer-Lizenzvertrag für lizenzierte Apps (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) lizenziert. Diese Bedingungen ergänzen ihn um einige Punkte, die speziell für Atleva gelten."
@@ -166,7 +166,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Fragen, Feedback oder ein Problem? Schreib eine E-Mail an support@ardasnturk.com. Bitte sende keine Gesundheitsinformationen, die du nicht teilen möchtest."

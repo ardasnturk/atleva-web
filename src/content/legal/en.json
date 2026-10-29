@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Privacy Policy",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
-    "p": "Atleva (\"the app\") is a home workout app for iPhone. This policy explains what data the app uses and where it goes. Short version: we don't collect your data. There are no accounts, no analytics, no ads and no tracking."
+    "p": "Atleva (\"the app\") is a home workout app for iPhone. This policy explains what data the app uses and where it goes. Short version: we don't collect your personal data. The only data that leaves your device besides iCloud sync is your subscription record (see Purchases). There are no accounts, no analytics, no ads and no tracking."
    }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     "title": "Purchases",
     "blocks": [
      {
-      "p": "Subscriptions are processed by Apple through the App Store. The developer does not receive your payment details. The app checks your subscription status with Apple's StoreKit on your device."
+      "p": "Subscriptions are processed by Apple through the App Store. The developer does not receive your payment details. To check your subscription, the app sends your App Store purchase records and a random identifier created by the app (not linked to your name, email or Apple Account) to RevenueCat, our subscription service provider, which verifies them with Apple. No health, workout or other personal data is sent. RevenueCat's privacy policy: https://www.revenuecat.com/privacy"
      }
     ]
    },
@@ -111,7 +111,7 @@
  },
  "terms": {
   "title": "Terms of Use",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Atleva is licensed to you under Apple's Standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These terms add a few points specific to Atleva."
@@ -166,7 +166,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Questions, feedback or a problem? Email support@ardasnturk.com. Please don't send health information you don't want to share."

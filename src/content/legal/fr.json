@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Politique de confidentialité",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
-    "p": "Atleva (« l’app ») est une app d’entraînement à la maison pour iPhone. Cette politique explique quelles données l’app utilise et où elles vont. En bref : nous ne collectons pas vos données. Il n’y a ni compte, ni outil d’analyse, ni publicité, ni pistage."
+    "p": "Atleva (« l’app ») est une app d’entraînement à la maison pour iPhone. Cette politique explique quelles données l’app utilise et où elles vont. En bref : nous ne collectons pas vos données personnelles. En dehors de la synchronisation iCloud, seul le justificatif de votre abonnement quitte votre appareil (voir Achats). Il n’y a ni compte, ni outil d’analyse, ni publicité, ni pistage."
    }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     "title": "Achats",
     "blocks": [
      {
-      "p": "Les abonnements sont traités par Apple via l’App Store. Le développeur ne reçoit pas vos informations de paiement. L’app vérifie le statut de votre abonnement auprès de StoreKit d’Apple, sur votre appareil."
+      "p": "Les abonnements sont traités par Apple via l’App Store. Le développeur ne reçoit pas vos informations de paiement. Pour vérifier votre abonnement, l’app envoie vos reçus d’achat App Store et un identifiant aléatoire créé par l’app (non lié à votre nom, à votre e-mail ni à votre compte Apple) à RevenueCat, notre prestataire de gestion des abonnements, qui les vérifie auprès d’Apple. Aucune donnée de santé, d’entraînement ni autre donnée personnelle n’est envoyée. Politique de confidentialité de RevenueCat : https://www.revenuecat.com/privacy"
      }
     ]
    },
@@ -111,7 +111,7 @@
  },
  "terms": {
   "title": "Conditions d’utilisation",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Atleva vous est concédé sous licence selon le Contrat de licence utilisateur final standard d’Apple pour les applications sous licence (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Les présentes conditions ajoutent quelques points propres à Atleva."
@@ -166,7 +166,7 @@
  },
  "support": {
   "title": "Assistance",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Une question, une suggestion ou un problème ? Écrivez à support@ardasnturk.com. Merci de ne pas envoyer d’informations de santé que vous ne souhaitez pas partager."

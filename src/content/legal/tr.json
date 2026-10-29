@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Gizlilik Politikası",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
-    "p": "Atleva (\"uygulama\"), iPhone için bir evde spor uygulamasıdır. Bu politika, uygulamanın hangi verileri kullandığını ve bu verilerin nereye gittiğini açıklar. Kısaca: verilerini toplamıyoruz. Hesap yok, analiz yok, reklam yok, takip yok."
+    "p": "Atleva (\"uygulama\"), iPhone için bir evde spor uygulamasıdır. Bu politika, uygulamanın hangi verileri kullandığını ve bu verilerin nereye gittiğini açıklar. Kısaca: kişisel verilerini toplamıyoruz. iCloud eşitlemesi dışında cihazından çıkan tek şey abonelik kaydındır (bkz. Satın alımlar). Hesap yok, analiz yok, reklam yok, takip yok."
    }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     "title": "Satın alımlar",
     "blocks": [
      {
-      "p": "Abonelikler Apple tarafından App Store üzerinden işlenir. Geliştirici ödeme bilgilerini almaz. Uygulama, abonelik durumunu cihazında Apple'ın StoreKit'i ile kontrol eder."
+      "p": "Abonelikler Apple tarafından App Store üzerinden işlenir. Geliştirici ödeme bilgilerini almaz. Uygulama, aboneliğini doğrulamak için App Store satın alma kayıtlarını ve uygulamanın oluşturduğu rastgele bir kimliği (adın, e-postan veya Apple Hesabın ile ilişkilendirilmez) abonelik hizmet sağlayıcımız RevenueCat'e gönderir; RevenueCat bunları Apple ile doğrular. Sağlık, antrenman veya başka kişisel veri gönderilmez. RevenueCat gizlilik politikası: https://www.revenuecat.com/privacy"
      }
     ]
    },
@@ -111,7 +111,7 @@
  },
  "terms": {
   "title": "Kullanım Koşulları",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Atleva, sana Apple'ın Standart Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) kapsamında lisanslanır. Bu koşullar, Atleva'ya özgü birkaç noktayı ekler."
@@ -166,7 +166,7 @@
  },
  "support": {
   "title": "Destek",
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "intro": [
    {
     "p": "Sorun, geri bildirim ya da bir problem mi var? support@ardasnturk.com adresine e-posta gönder. Lütfen paylaşmak istemediğin sağlık bilgilerini gönderme."
