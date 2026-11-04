@@ -31,7 +31,7 @@ npm run dev
   It reads `legal/<language>/*.md` and `legal/config.json` (→ `src/content/legal/<language>.json`), the App Store
   screenshots in `marketing/screenshots/raw/69/<locale>/` (→ `public/screens/<language>/`) and the Icon Composer icon
   (→ `public/assets/icon.png`).
-- When the app is live, set `APP_STORE_URL` in `src/config.ts`; until then the buttons read "Coming soon".
+- The App Store link is `APP_STORE_URL` in `src/config.ts`; if it is empty the buttons read "Coming soon".
 
 Privacy: the site has no analytics, cookies, external fonts or third-party scripts. The language choice is kept in
 `localStorage` only.
