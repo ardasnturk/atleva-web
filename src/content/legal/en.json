@@ -63,7 +63,7 @@
     "title": "Coach voice download",
     "blocks": [
      {
-      "p": "If you choose to download the natural coach voice in Settings, the app downloads a voice file for your language from our download server (hosted on Cloudflare). The request contains only the file name; like any web request it reveals your IP address to the host, but no personal, health or workout data is sent. The file stays on your device and is excluded from backups."
+      "p": "The app checks our download server (hosted on Cloudflare) for a natural coach voice in your language, and if you choose to download it in Settings, it downloads it from there. These requests contain only file names; like any web request they reveal your IP address to the host, but no personal, health or workout data is sent. The file stays on your device and is excluded from backups."
      }
     ]
    },

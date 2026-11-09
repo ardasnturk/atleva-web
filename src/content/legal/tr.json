@@ -63,7 +63,7 @@
     "title": "Koç sesi indirme",
     "blocks": [
      {
-      "p": "Ayarlar'dan doğal koç sesini indirmeyi seçersen uygulama, kendi dilindeki ses dosyasını indirme sunucumuzdan (Cloudflare üzerinde barındırılır) indirir. İstek yalnızca dosya adını içerir; her web isteğinde olduğu gibi IP adresin barındırma hizmetine görünür, ancak kişisel, sağlık veya antrenman verisi gönderilmez. Dosya cihazında kalır ve yedeklemelere dahil edilmez."
+      "p": "Uygulama, kendi dilinde doğal koç sesi olup olmadığını indirme sunucumuzdan (Cloudflare üzerinde barındırılır) kontrol eder; Ayarlar'dan indirmeyi seçersen ses dosyasını oradan indirir. İstek yalnızca dosya adını içerir; her web isteğinde olduğu gibi IP adresin barındırma hizmetine görünür, ancak kişisel, sağlık veya antrenman verisi gönderilmez. Dosya cihazında kalır ve yedeklemelere dahil edilmez."
      }
     ]
    },

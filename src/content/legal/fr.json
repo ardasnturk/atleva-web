@@ -63,7 +63,7 @@
     "title": "Téléchargement de la voix du coach",
     "blocks": [
      {
-      "p": "Si vous choisissez de télécharger la voix naturelle du coach dans Réglages, l’app télécharge un fichier vocal pour votre langue depuis notre serveur de téléchargement (hébergé chez Cloudflare). La requête ne contient que le nom du fichier ; comme toute requête web, elle révèle votre adresse IP à l’hébergeur, mais aucune donnée personnelle, de santé ou d’entraînement n’est envoyée. Le fichier reste sur votre appareil et est exclu des sauvegardes."
+      "p": "L’app vérifie sur notre serveur de téléchargement (hébergé chez Cloudflare) s’il existe une voix de coach naturelle dans votre langue et, si vous choisissez de la télécharger dans Réglages, la télécharge depuis ce serveur. La requête ne contient que le nom du fichier ; comme toute requête web, elle révèle votre adresse IP à l’hébergeur, mais aucune donnée personnelle, de santé ou d’entraînement n’est envoyée. Le fichier reste sur votre appareil et est exclu des sauvegardes."
      }
     ]
    },

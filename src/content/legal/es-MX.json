@@ -63,7 +63,7 @@
     "title": "Descarga de la voz del entrenador",
     "blocks": [
      {
-      "p": "Si decides descargar la voz natural del entrenador en Configuración, la app descarga un archivo de voz para tu idioma desde nuestro servidor de descargas (alojado en Cloudflare). La solicitud solo contiene el nombre del archivo; como cualquier solicitud web, revela tu dirección IP al proveedor, pero no se envían datos personales, de salud ni de entrenamiento. El archivo se queda en tu dispositivo y no se incluye en los respaldos."
+      "p": "La app consulta en nuestro servidor de descargas (alojado en Cloudflare) si hay una voz natural del entrenador en tu idioma y, si decides descargarla en Configuración, la descarga de ahí. La solicitud solo contiene el nombre del archivo; como cualquier solicitud web, revela tu dirección IP al proveedor, pero no se envían datos personales, de salud ni de entrenamiento. El archivo se queda en tu dispositivo y no se incluye en los respaldos."
      }
     ]
    },

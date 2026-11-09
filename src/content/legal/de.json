@@ -63,7 +63,7 @@
     "title": "Download der Coach-Stimme",
     "blocks": [
      {
-      "p": "Wenn du in den Einstellungen die natürliche Coach-Stimme lädst, lädt die App eine Sprachdatei für deine Sprache von unserem Download-Server (gehostet bei Cloudflare). Die Anfrage enthält nur den Dateinamen; wie jede Webanfrage gibt sie dem Host deine IP-Adresse preis, es werden aber keine persönlichen, Gesundheits- oder Trainingsdaten gesendet. Die Datei bleibt auf deinem Gerät und ist von Backups ausgeschlossen."
+      "p": "Die App prüft auf unserem Download-Server (gehostet bei Cloudflare), ob es eine natürliche Coach-Stimme in deiner Sprache gibt, und lädt sie dort, wenn du das in den Einstellungen wählst. Die Anfrage enthält nur den Dateinamen; wie jede Webanfrage gibt sie dem Host deine IP-Adresse preis, es werden aber keine persönlichen, Gesundheits- oder Trainingsdaten gesendet. Die Datei bleibt auf deinem Gerät und ist von Backups ausgeschlossen."
      }
     ]
    },

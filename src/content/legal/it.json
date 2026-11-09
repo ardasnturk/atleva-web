@@ -63,7 +63,7 @@
     "title": "Download della voce del coach",
     "blocks": [
      {
-      "p": "Se scegli di scaricare la voce naturale del coach nelle Impostazioni, l’app scarica un file vocale per la tua lingua dal nostro server di download (ospitato su Cloudflare). La richiesta contiene solo il nome del file; come ogni richiesta web rivela il tuo indirizzo IP all’host, ma non vengono inviati dati personali, sanitari o di allenamento. Il file resta sul dispositivo ed è escluso dai backup."
+      "p": "L’app verifica sul nostro server di download (ospitato su Cloudflare) se esiste una voce del coach naturale nella tua lingua e, se scegli di scaricarla nelle Impostazioni, la scarica da lì. La richiesta contiene solo il nome del file; come ogni richiesta web rivela il tuo indirizzo IP all’host, ma non vengono inviati dati personali, sanitari o di allenamento. Il file resta sul dispositivo ed è escluso dai backup."
      }
     ]
    },

@@ -63,7 +63,7 @@
     "title": "Download van de coachstem",
     "blocks": [
      {
-      "p": "Als je in Instellingen de natuurlijke coachstem downloadt, haalt de app een spraakbestand voor jouw taal op van onze downloadserver (gehost bij Cloudflare). Het verzoek bevat alleen de bestandsnaam; zoals elk webverzoek maakt het je IP-adres zichtbaar voor de host, maar er worden geen persoonlijke, gezondheids- of trainingsgegevens verstuurd. Het bestand blijft op je apparaat en wordt uitgesloten van back-ups."
+      "p": "De app controleert op onze downloadserver (gehost bij Cloudflare) of er een natuurlijke coachstem in jouw taal is en downloadt die daar als je dat in Instellingen kiest. Het verzoek bevat alleen de bestandsnaam; zoals elk webverzoek maakt het je IP-adres zichtbaar voor de host, maar er worden geen persoonlijke, gezondheids- of trainingsgegevens verstuurd. Het bestand blijft op je apparaat en wordt uitgesloten van back-ups."
      }
     ]
    },
