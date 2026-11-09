@@ -1,7 +1,7 @@
 {
  "privacy": {
   "title": "Privacy Policy",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva (\"the app\") is a home workout app for iPhone. This policy explains what data the app uses and where it goes. Short version: we don't collect your personal data. The only data that leaves your device besides iCloud sync is your subscription record (see Purchases). There are no accounts, no analytics, no ads and no tracking."
@@ -48,6 +48,22 @@
     "blocks": [
      {
       "p": "On supported devices (iOS 26 or later with Apple Intelligence), optional coach features use Apple's on-device language model. Prompts and replies are processed on your device and are not stored or sent to the developer or any third party. Private Cloud Compute and external AI services are not used."
+     }
+    ]
+   },
+   {
+    "title": "Camera coach",
+    "blocks": [
+     {
+      "p": "The optional camera coach (Pro) uses your iPhone's front camera, only while you are in a camera workout and only after you allow camera access. Your body pose is detected on your device with Apple's Vision framework; video and images are never saved, never leave your iPhone and are not sent to the developer or anyone else. Only the resulting scores (reps and form percentages) are kept with your workout history on the device."
+     }
+    ]
+   },
+   {
+    "title": "Coach voice download",
+    "blocks": [
+     {
+      "p": "If you choose to download the natural coach voice in Settings, the app downloads a voice file for your language from our download server (hosted on Cloudflare). The request contains only the file name; like any web request it reveals your IP address to the host, but no personal, health or workout data is sent. The file stays on your device and is excluded from backups."
      }
     ]
    },
@@ -111,7 +127,7 @@
  },
  "terms": {
   "title": "Terms of Use",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva is licensed to you under Apple's Standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These terms add a few points specific to Atleva."
@@ -166,7 +182,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Questions, feedback or a problem? Email support@ardasnturk.com. Please don't send health information you don't want to share."

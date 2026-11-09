@@ -1,7 +1,7 @@
 {
  "privacy": {
   "title": "Privacybeleid",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva (\"de app\") is een app voor thuisworkouts voor iPhone. Dit beleid legt uit welke gegevens de app gebruikt en waar ze naartoe gaan. Kort gezegd: we verzamelen je persoonsgegevens niet. Naast iCloud-synchronisatie verlaat alleen je abonnementsgegeven je apparaat (zie Aankopen). Er zijn geen accounts, geen analytics, geen advertenties en geen tracking."
@@ -48,6 +48,22 @@
     "blocks": [
      {
       "p": "Op ondersteunde apparaten (iOS 26 of nieuwer met Apple Intelligence) gebruiken optionele coachfuncties het taalmodel van Apple op het apparaat. Prompts en antwoorden worden op je apparaat verwerkt en worden niet opgeslagen of naar de ontwikkelaar of derden gestuurd. Private Cloud Compute en externe AI-diensten worden niet gebruikt."
+     }
+    ]
+   },
+   {
+    "title": "Cameracoach",
+    "blocks": [
+     {
+      "p": "De optionele cameracoach (Pro) gebruikt de voorcamera van je iPhone alleen tijdens een cameraworkout en pas nadat je cameratoegang hebt toegestaan. Je houding wordt op je apparaat herkend met het Vision-framework van Apple; video en beelden worden nooit bewaard, verlaten je iPhone nooit en worden niet naar de ontwikkelaar of anderen gestuurd. Alleen de resulterende scores (herhalingen en techniekpercentages) blijven in je trainingsgeschiedenis op het apparaat."
+     }
+    ]
+   },
+   {
+    "title": "Download van de coachstem",
+    "blocks": [
+     {
+      "p": "Als je in Instellingen de natuurlijke coachstem downloadt, haalt de app een spraakbestand voor jouw taal op van onze downloadserver (gehost bij Cloudflare). Het verzoek bevat alleen de bestandsnaam; zoals elk webverzoek maakt het je IP-adres zichtbaar voor de host, maar er worden geen persoonlijke, gezondheids- of trainingsgegevens verstuurd. Het bestand blijft op je apparaat en wordt uitgesloten van back-ups."
      }
     ]
    },
@@ -111,7 +127,7 @@
  },
  "terms": {
   "title": "Gebruiksvoorwaarden",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva wordt aan je in licentie gegeven onder de Standaard Licentieovereenkomst voor Eindgebruikers van Gelicentieerde Apps van Apple (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Deze voorwaarden voegen een paar punten toe die specifiek voor Atleva gelden."
@@ -166,7 +182,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Vragen, feedback of een probleem? Mail naar support@ardasnturk.com. Stuur geen gezondheidsinformatie die je niet wilt delen."

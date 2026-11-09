@@ -1,7 +1,7 @@
 {
  "privacy": {
   "title": "Politique de confidentialité",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva (« l’app ») est une app d’entraînement à la maison pour iPhone. Cette politique explique quelles données l’app utilise et où elles vont. En bref : nous ne collectons pas vos données personnelles. En dehors de la synchronisation iCloud, seul le justificatif de votre abonnement quitte votre appareil (voir Achats). Il n’y a ni compte, ni outil d’analyse, ni publicité, ni pistage."
@@ -48,6 +48,22 @@
     "blocks": [
      {
       "p": "Sur les appareils compatibles (iOS 26 ou ultérieur avec Apple Intelligence), les fonctionnalités facultatives du coach utilisent le modèle de langage d’Apple exécuté sur l’appareil. Les requêtes et les réponses sont traitées sur votre appareil ; elles ne sont pas stockées et ne sont envoyées ni au développeur ni à aucun tiers. Ni Private Cloud Compute ni aucun service d’IA externe ne sont utilisés."
+     }
+    ]
+   },
+   {
+    "title": "Coach caméra",
+    "blocks": [
+     {
+      "p": "Le coach caméra facultatif (Pro) utilise la caméra avant de votre iPhone uniquement pendant une séance avec caméra et seulement après que vous avez autorisé l’accès à la caméra. Votre posture est détectée sur l’appareil grâce au framework Vision d’Apple ; les vidéos et images ne sont jamais enregistrées, ne quittent jamais votre iPhone et ne sont envoyées ni au développeur ni à quiconque. Seuls les scores obtenus (répétitions et pourcentages de technique) sont conservés dans votre historique sur l’appareil."
+     }
+    ]
+   },
+   {
+    "title": "Téléchargement de la voix du coach",
+    "blocks": [
+     {
+      "p": "Si vous choisissez de télécharger la voix naturelle du coach dans Réglages, l’app télécharge un fichier vocal pour votre langue depuis notre serveur de téléchargement (hébergé chez Cloudflare). La requête ne contient que le nom du fichier ; comme toute requête web, elle révèle votre adresse IP à l’hébergeur, mais aucune donnée personnelle, de santé ou d’entraînement n’est envoyée. Le fichier reste sur votre appareil et est exclu des sauvegardes."
      }
     ]
    },
@@ -111,7 +127,7 @@
  },
  "terms": {
   "title": "Conditions d’utilisation",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva vous est concédé sous licence selon le Contrat de licence utilisateur final standard d’Apple pour les applications sous licence (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Les présentes conditions ajoutent quelques points propres à Atleva."
@@ -166,7 +182,7 @@
  },
  "support": {
   "title": "Assistance",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Une question, une suggestion ou un problème ? Écrivez à support@ardasnturk.com. Merci de ne pas envoyer d’informations de santé que vous ne souhaitez pas partager."

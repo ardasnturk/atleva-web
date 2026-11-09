@@ -1,7 +1,7 @@
 {
  "privacy": {
   "title": "Política de privacidad",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva («la app») es una app de entrenamiento en casa para iPhone. Esta política explica qué datos usa la app y adónde van. En resumen: no recopilamos tus datos personales. Aparte de la sincronización con iCloud, lo único que sale de tu dispositivo es el registro de tu suscripción (ver Compras). No hay cuentas, ni analíticas, ni anuncios, ni rastreo."
@@ -48,6 +48,22 @@
     "blocks": [
      {
       "p": "En los dispositivos compatibles (iOS 26 o posterior con Apple Intelligence), las funciones opcionales del coach usan el modelo de lenguaje de Apple en el dispositivo. Las peticiones y las respuestas se procesan en tu dispositivo y no se guardan ni se envían al desarrollador ni a terceros. No se usan Private Cloud Compute ni servicios de IA externos."
+     }
+    ]
+   },
+   {
+    "title": "Coach con cámara",
+    "blocks": [
+     {
+      "p": "El coach con cámara opcional (Pro) usa la cámara frontal de tu iPhone solo durante un entreno con cámara y solo después de que permitas el acceso a la cámara. Tu postura se detecta en el dispositivo con el framework Vision de Apple; los vídeos e imágenes nunca se guardan, nunca salen de tu iPhone y no se envían al desarrollador ni a nadie. Solo las puntuaciones resultantes (repeticiones y porcentajes de técnica) se guardan en tu historial en el dispositivo."
+     }
+    ]
+   },
+   {
+    "title": "Descarga de la voz del entrenador",
+    "blocks": [
+     {
+      "p": "Si decides descargar la voz natural del entrenador en Ajustes, la app descarga un archivo de voz para tu idioma desde nuestro servidor de descargas (alojado en Cloudflare). La solicitud solo contiene el nombre del archivo; como cualquier solicitud web, revela tu dirección IP al proveedor, pero no se envían datos personales, de salud ni de entrenamiento. El archivo se queda en tu dispositivo y se excluye de las copias de seguridad."
      }
     ]
    },
@@ -111,7 +127,7 @@
  },
  "terms": {
   "title": "Condiciones de uso",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "Atleva se te concede bajo licencia conforme al Contrato de Licencia de Usuario Final de Aplicaciones con Licencia Estándar de Apple (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Estas condiciones añaden algunos puntos específicos de Atleva."
@@ -166,7 +182,7 @@
  },
  "support": {
   "title": "Soporte",
-  "updated": "2026-10-29",
+  "updated": "2026-11-09",
   "intro": [
    {
     "p": "¿Tienes preguntas, comentarios o algún problema? Escribe a support@ardasnturk.com. Por favor, no envíes información de salud que no quieras compartir."
