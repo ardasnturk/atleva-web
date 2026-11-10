@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Gizlilik Politikası",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "Atleva (\"uygulama\"), iPhone için bir evde spor uygulamasıdır. Bu politika, uygulamanın hangi verileri kullandığını ve bu verilerin nereye gittiğini açıklar. Kısaca: kişisel verilerini toplamıyoruz. iCloud eşitlemesi dışında cihazından çıkan tek şey abonelik kaydındır (bkz. Satın alımlar). Hesap yok, analiz yok, reklam yok, takip yok."
+    "p": "Atleva (\"uygulama\"), iPhone ve Apple Watch için bir evde spor uygulamasıdır. Bu politika, uygulamanın hangi verileri kullandığını ve bu verilerin nereye gittiğini açıklar. Kısaca: kişisel verilerini toplamıyoruz. iCloud eşitlemesi dışında cihazından çıkan tek şey abonelik kaydındır (bkz. Satın alımlar). Hesap yok, analiz yok, reklam yok, takip yok."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Topladığımız veriler",
     "blocks": [
      {
-      "p": "Hiçbiri. Geliştirici, uygulama için sunucu işletmez ve uygulamadan hiçbir kişisel veri almaz."
+      "p": "Hiçbiri. Geliştirici uygulamadan hiçbir kişisel veri almaz. Aşağıda anlatılan indirme sunucusu yalnızca dosya sunar."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "Apple Sağlık",
     "blocks": [
      {
-      "p": "İznin olursa uygulama; programını kişiselleştirmek, vücut analizini tahmin etmek ve bir hazır olma puanı hesaplamak için boy, kilo, vücut yağ oranı, bel çevresi, kalp atış hızı, dinlenme nabzı, kalp atış hızı değişkenliği, VO2 maks, uyku, adım, aktif enerji, antrenmanlar, biyolojik cinsiyet ve doğum tarihi verilerini okur. Atleva'da tamamladığın antrenmanları (tahmini bir aktif enerji değeriyle) ve girdiğin vücut ölçülerini yazar. Sağlık verileri yalnızca uygulamadaki bu özellikleri sunmak için kullanılır. Hiçbir zaman reklam veya pazarlama için kullanılmaz, satılmaz ve üçüncü taraflarla paylaşılmaz. İzinleri istediğin zaman Sağlık uygulamasından veya iOS Ayarlar'dan değiştirebilirsin."
+      "p": "İznin olursa uygulama; programını kişiselleştirmek, vücut analizini tahmin etmek ve bir hazır olma puanı hesaplamak için boy, kilo, vücut yağ oranı, bel çevresi, kalp atış hızı, dinlenme nabzı, kalp atış hızı değişkenliği, VO2 maks, uyku, adım, aktif enerji, antrenmanlar, biyolojik cinsiyet ve doğum tarihi verilerini okur. Atleva'da tamamladığın antrenmanları (tahmini bir aktif enerji değeriyle) ve girdiğin vücut ölçülerini yazar. Apple Watch'ta saatten başlattığın bir antrenman, sürdüğü sırada kalp atış hızını okur; antrenmanı, kalp atış hızını ve aktif enerjiyi Apple Sağlık'a kaydeder. Sağlık verileri yalnızca uygulamadaki bu özellikleri sunmak için kullanılır. Hiçbir zaman reklam veya pazarlama için kullanılmaz, satılmaz ve üçüncü taraflarla paylaşılmaz. İzinleri istediğin zaman Sağlık uygulamasından veya iOS Ayarlar'dan değiştirebilirsin."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Koç sesi indirme",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "Uygulama, kendi dilinde doğal koç sesi olup olmadığını indirme sunucumuzdan (Cloudflare üzerinde barındırılır) kontrol eder; Ayarlar'dan indirmeyi seçersen ses dosyasını oradan indirir. İstek yalnızca dosya adını içerir; her web isteğinde olduğu gibi IP adresin barındırma hizmetine görünür, ancak kişisel, sağlık veya antrenman verisi gönderilmez. Dosya cihazında kalır ve yedeklemelere dahil edilmez."
+      "p": "İsteğe bağlı Apple Watch uygulaması (Pro) yalnızca kendi iPhone'unla, Apple'ın WatchConnectivity altyapısı üzerinden doğrudan iletişim kurar. iPhone'un saate günün seansını (egzersiz adları, setler ve tekrarlar), serini ve haftalık ilerlemeni gönderir; saat, komplikasyonları için en son kopyayı saklar. iPhone'daki bir antrenmanı saatten takip ederken kalp atış hızın iPhone'unda canlı gösterilir; saklanmaz ve eşzamanlanmaz. Yalnızca saatle antrenman yaptığında antrenman saatte Apple Sağlık'a kaydedilir; iPhone'una ise telefonda yapılan bir antrenmanda olduğu gibi yalnızca seans kaydı (egzersizler, setler, tekrarlar ve süre) gelir. Saatten geliştiriciye veya herhangi bir üçüncü tarafa hiçbir şey gönderilmez."
+     }
+    ]
+   },
+   {
+    "title": "İndirmeler: koç sesi ve egzersiz videoları",
+    "blocks": [
+     {
+      "p": "Uygulama bazı dosyaları indirme sunucumuzdan (Cloudflare üzerinde barındırılır) indirir: Ayarlar'dan indirmeyi seçersen kendi dilindeki doğal koç sesini ve uygulamanın içinde gelmeyen egzersiz videolarını. Videolar Wi-Fi'deyken arka planda ya da bir egzersizi açtığında iner. İstekler yalnızca dosya adlarını içerir; her web isteğinde olduğu gibi IP adresin barındırma hizmetine görünür, ancak kişisel, sağlık veya antrenman verisi gönderilmez. İndirilen dosyalar cihazında kalır ve yedeklemelere dahil edilmez."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Bildirimler",
     "blocks": [
      {
-      "p": "İsteğe bağlı antrenman hatırlatıcıları cihazında yerel olarak planlanır. Pazarlama bildirimi gönderilmez."
+      "p": "İsteğe bağlı antrenman hatırlatıcıları cihazında yerel olarak planlanır. Akıllı hatırlatmalar (Pro), genellikle antrenman yaptığın saat ve serin gibi bilgilerle antrenman geçmişinden cihazında hesaplanır; hiçbir yere bir şey gönderilmez. Pazarlama bildirimi gönderilmez."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Kullanım Koşulları",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Atleva, sana Apple'ın Standart Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) kapsamında lisanslanır. Bu koşullar, Atleva'ya özgü birkaç noktayı ekler."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Destek",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Sorun, geri bildirim ya da bir problem mi var? support@ardasnturk.com adresine e-posta gönder. Lütfen paylaşmak istemediğin sağlık bilgilerini gönderme."

@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Política de Privacidade",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "O Atleva (\"o app\") é um app de treino em casa para iPhone. Esta política explica quais dados o app usa e para onde eles vão. Resumindo: não coletamos seus dados pessoais. Além da sincronização com o iCloud, só o registro da sua assinatura sai do seu dispositivo (veja Compras). Não há contas, análises, anúncios nem rastreamento."
+    "p": "O Atleva (\"o app\") é um app de treino em casa para iPhone e Apple Watch. Esta política explica quais dados o app usa e para onde eles vão. Resumindo: não coletamos seus dados pessoais. Além da sincronização com o iCloud, só o registro da sua assinatura sai do seu dispositivo (veja Compras). Não há contas, análises, anúncios nem rastreamento."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Dados que coletamos",
     "blocks": [
      {
-      "p": "Nenhum. O desenvolvedor não opera servidores para o app e não recebe dados pessoais por meio dele."
+      "p": "Nenhum. O desenvolvedor não recebe dados pessoais por meio do app. O servidor de downloads descrito abaixo apenas entrega arquivos."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "App Saúde",
     "blocks": [
      {
-      "p": "Com sua permissão, o app lê altura, peso, percentual de gordura corporal, circunferência da cintura, frequência cardíaca, frequência cardíaca em repouso, variabilidade da frequência cardíaca, VO2 máx., sono, passos, energia ativa, treinos, sexo biológico e data de nascimento, para personalizar seu plano, estimar sua análise corporal e calcular um pontuação de prontidão. Ele grava os treinos que você conclui no Atleva (com um valor estimado de energia ativa) e as medidas corporais que você registra. Os dados de saúde são usados apenas para oferecer esses recursos no app. Eles nunca são usados para publicidade ou marketing, nunca são vendidos e nunca são compartilhados com terceiros. Você pode alterar as permissões a qualquer momento no app Saúde ou nos Ajustes do iOS."
+      "p": "Com sua permissão, o app lê altura, peso, percentual de gordura corporal, circunferência da cintura, frequência cardíaca, frequência cardíaca em repouso, variabilidade da frequência cardíaca, VO2 máx., sono, passos, energia ativa, treinos, sexo biológico e data de nascimento, para personalizar seu plano, estimar sua análise corporal e calcular um pontuação de prontidão. Ele grava os treinos que você conclui no Atleva (com um valor estimado de energia ativa) e as medidas corporais que você registra. No Apple Watch, um treino iniciado no relógio lê sua frequência cardíaca enquanto acontece e salva o treino, a frequência cardíaca e a energia ativa no app Saúde. Os dados de saúde são usados apenas para oferecer esses recursos no app. Eles nunca são usados para publicidade ou marketing, nunca são vendidos e nunca são compartilhados com terceiros. Você pode alterar as permissões a qualquer momento no app Saúde ou nos Ajustes do iOS."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Download da voz do treinador",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "O app verifica no nosso servidor de downloads (hospedado na Cloudflare) se há uma voz natural do treinador no seu idioma e, se você optar por baixá-la em Ajustes, baixa de lá. A solicitação contém apenas o nome do arquivo; como qualquer solicitação na web, ela revela seu endereço IP ao provedor, mas nenhum dado pessoal, de saúde ou de treino é enviado. O arquivo fica no seu dispositivo e é excluído dos backups."
+      "p": "O app Apple Watch opcional (Pro) se comunica apenas com o seu próprio iPhone, diretamente pelo WatchConnectivity da Apple. O iPhone envia ao relógio a sessão de hoje (nomes dos exercícios, séries e repetições), sua sequência e o progresso da semana, e o relógio guarda a cópia mais recente para suas complicações. Enquanto você acompanha um treino do iPhone no relógio, sua frequência cardíaca é exibida ao vivo no iPhone e não é armazenada nem sincronizada. Quando você treina só com o relógio, o treino é salvo no app Saúde do relógio e o iPhone recebe apenas o registro da sessão (exercícios, séries, repetições e duração), como em um treino feito no celular. Nada do relógio é enviado ao desenvolvedor nem a terceiros."
+     }
+    ]
+   },
+   {
+    "title": "Downloads: voz do treinador e vídeos dos exercícios",
+    "blocks": [
+     {
+      "p": "O app baixa alguns arquivos do nosso servidor de downloads (hospedado na Cloudflare): uma voz natural do treinador no seu idioma, se você optar por baixá-la em Ajustes, e os vídeos dos exercícios que não vêm incluídos no app, que são baixados em segundo plano no Wi-Fi ou quando você abre um exercício. As solicitações contêm apenas nomes de arquivo; como qualquer solicitação na web, revelam seu endereço IP ao provedor, mas nenhum dado pessoal, de saúde ou de treino é enviado. Os arquivos baixados ficam no seu dispositivo e são excluídos dos backups."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Notificações",
     "blocks": [
      {
-      "p": "Os lembretes opcionais de treino são agendados localmente no seu dispositivo. Nenhuma notificação de marketing é enviada."
+      "p": "Os lembretes opcionais de treino são agendados localmente no seu dispositivo. Os lembretes inteligentes (Pro) são calculados no seu dispositivo a partir do seu histórico de treinos, como o horário em que você costuma treinar e sua sequência; nada é enviado para lugar nenhum. Nenhuma notificação de marketing é enviada."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Termos de Uso",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "O Atleva é licenciado para você nos termos do Contrato de Licença de Usuário Final Padrão para Aplicativos Licenciados da Apple (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Estes termos acrescentam alguns pontos específicos do Atleva."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Suporte",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Dúvidas, sugestões ou algum problema? Envie um e-mail para support@ardasnturk.com. Não envie informações de saúde que você não queira compartilhar."

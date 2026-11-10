@@ -11,7 +11,7 @@ export function LanguageSelect() {
         <path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z" />
       </svg>
       <select value={language} onChange={(event) => setLanguage(event.target.value as Language)}
-        className="appearance-none rounded-full border border-ink/15 bg-transparent py-1.5 ps-8 pe-3 text-sm dark:border-paper/20">
+        className="appearance-none rounded-full border border-current/20 bg-transparent py-1.5 ps-8 pe-3 text-sm">
         {LANGUAGES.map((code) => (
           <option key={code} value={code} className="text-ink">
             {LANGUAGE_NAMES[code]}

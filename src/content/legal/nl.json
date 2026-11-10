@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Privacybeleid",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "Atleva (\"de app\") is een app voor thuisworkouts voor iPhone. Dit beleid legt uit welke gegevens de app gebruikt en waar ze naartoe gaan. Kort gezegd: we verzamelen je persoonsgegevens niet. Naast iCloud-synchronisatie verlaat alleen je abonnementsgegeven je apparaat (zie Aankopen). Er zijn geen accounts, geen analytics, geen advertenties en geen tracking."
+    "p": "Atleva (\"de app\") is een app voor thuisworkouts voor iPhone en Apple Watch. Dit beleid legt uit welke gegevens de app gebruikt en waar ze naartoe gaan. Kort gezegd: we verzamelen je persoonsgegevens niet. Naast iCloud-synchronisatie verlaat alleen je abonnementsgegeven je apparaat (zie Aankopen). Er zijn geen accounts, geen analytics, geen advertenties en geen tracking."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Gegevens die we verzamelen",
     "blocks": [
      {
-      "p": "Geen. De ontwikkelaar beheert geen servers voor de app en ontvangt via de app geen persoonsgegevens."
+      "p": "Geen. De ontwikkelaar ontvangt via de app geen persoonsgegevens. De hieronder beschreven downloadserver levert alleen bestanden."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "Apple Health",
     "blocks": [
      {
-      "p": "Met je toestemming leest de app lengte, gewicht, vetpercentage, tailleomtrek, hartslag, rusthartslag, hartslagvariabiliteit, VO2 max, slaap, stappen, actieve energie, workouts, biologisch geslacht en geboortedatum, om je plan te personaliseren, je lichaamsanalyse te schatten en een paraatheidsscore te berekenen. De app schrijft de workouts die je in Atleva voltooit (met een geschatte waarde voor actieve energie) en de lichaamsmaten die je invoert naar Gezondheid. Gezondheidsgegevens worden alleen gebruikt om deze functies in de app te bieden. Ze worden nooit gebruikt voor advertenties of marketing, nooit verkocht en nooit gedeeld met derden. Je kunt de toestemmingen altijd wijzigen in de Gezondheid-app of in de iOS-instellingen."
+      "p": "Met je toestemming leest de app lengte, gewicht, vetpercentage, tailleomtrek, hartslag, rusthartslag, hartslagvariabiliteit, VO2 max, slaap, stappen, actieve energie, workouts, biologisch geslacht en geboortedatum, om je plan te personaliseren, je lichaamsanalyse te schatten en een paraatheidsscore te berekenen. De app schrijft de workouts die je in Atleva voltooit (met een geschatte waarde voor actieve energie) en de lichaamsmaten die je invoert naar Gezondheid. Op de Apple Watch leest een workout die je op het horloge start je hartslag terwijl die loopt, en slaat de workout, hartslag en actieve energie op in Apple Health. Gezondheidsgegevens worden alleen gebruikt om deze functies in de app te bieden. Ze worden nooit gebruikt voor advertenties of marketing, nooit verkocht en nooit gedeeld met derden. Je kunt de toestemmingen altijd wijzigen in de Gezondheid-app of in de iOS-instellingen."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Download van de coachstem",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "De app controleert op onze downloadserver (gehost bij Cloudflare) of er een natuurlijke coachstem in jouw taal is en downloadt die daar als je dat in Instellingen kiest. Het verzoek bevat alleen de bestandsnaam; zoals elk webverzoek maakt het je IP-adres zichtbaar voor de host, maar er worden geen persoonlijke, gezondheids- of trainingsgegevens verstuurd. Het bestand blijft op je apparaat en wordt uitgesloten van back-ups."
+      "p": "De optionele Apple Watch-app (Pro) praat alleen met je eigen iPhone, rechtstreeks via WatchConnectivity van Apple. Je iPhone stuurt de sessie van vandaag (namen van oefeningen, sets en herhalingen), je reeks en de voortgang van de week naar het horloge, dat de nieuwste kopie bewaart voor de complicaties. Terwijl je een iPhone-workout op het horloge volgt, wordt je hartslag live op je iPhone getoond en niet opgeslagen of gesynchroniseerd. Als je alleen met het horloge traint, wordt de workout op het horloge in Apple Health opgeslagen en ontvangt je iPhone alleen het sessielogboek (oefeningen, sets, herhalingen en duur), net als bij een workout op de telefoon. Er wordt niets van het horloge naar de ontwikkelaar of derden gestuurd."
+     }
+    ]
+   },
+   {
+    "title": "Downloads: coachstem en oefenvideo's",
+    "blocks": [
+     {
+      "p": "De app downloadt enkele bestanden van onze downloadserver (gehost bij Cloudflare): een natuurlijke coachstem in jouw taal, als je die in Instellingen wilt downloaden, en oefenvideo's die niet in de app zitten en op wifi op de achtergrond of bij het openen van een oefening worden gedownload. De verzoeken bevatten alleen bestandsnamen; zoals elk webverzoek maken ze je IP-adres zichtbaar voor de host, maar er worden geen persoonlijke, gezondheids- of trainingsgegevens verstuurd. Gedownloade bestanden blijven op je apparaat en worden uitgesloten van back-ups."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Meldingen",
     "blocks": [
      {
-      "p": "Optionele workoutherinneringen worden lokaal op je apparaat ingepland. Er worden geen marketingmeldingen verstuurd."
+      "p": "Optionele workoutherinneringen worden lokaal op je apparaat ingepland. Slimme herinneringen (Pro) worden op je apparaat berekend op basis van je trainingsgeschiedenis, zoals het tijdstip waarop je meestal traint en je reeks; er wordt niets verstuurd. Er worden geen marketingmeldingen verstuurd."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Gebruiksvoorwaarden",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Atleva wordt aan je in licentie gegeven onder de Standaard Licentieovereenkomst voor Eindgebruikers van Gelicentieerde Apps van Apple (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Deze voorwaarden voegen een paar punten toe die specifiek voor Atleva gelden."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Vragen, feedback of een probleem? Mail naar support@ardasnturk.com. Stuur geen gezondheidsinformatie die je niet wilt delen."

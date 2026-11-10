@@ -21,8 +21,8 @@ function Content({ page }: { page: Page }) {
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-paper focus:px-4 focus:py-2 focus:text-ink">
         {t.nav.skip}
       </a>
-      <Header />
-      <main id="main">{page === "home" ? <Home /> : <Legal kind={page} />}</main>
+      <Header overHero={page === "home"} />
+      <main id="main" className={page === "home" ? "" : "pt-20"}>{page === "home" ? <Home /> : <Legal kind={page} />}</main>
       <Footer />
     </div>
   );

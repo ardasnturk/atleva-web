@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Politique de confidentialité",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "Atleva (« l’app ») est une app d’entraînement à la maison pour iPhone. Cette politique explique quelles données l’app utilise et où elles vont. En bref : nous ne collectons pas vos données personnelles. En dehors de la synchronisation iCloud, seul le justificatif de votre abonnement quitte votre appareil (voir Achats). Il n’y a ni compte, ni outil d’analyse, ni publicité, ni pistage."
+    "p": "Atleva (« l’app ») est une app d’entraînement à la maison pour iPhone et Apple Watch. Cette politique explique quelles données l’app utilise et où elles vont. En bref : nous ne collectons pas vos données personnelles. En dehors de la synchronisation iCloud, seul le justificatif de votre abonnement quitte votre appareil (voir Achats). Il n’y a ni compte, ni outil d’analyse, ni publicité, ni pistage."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Données que nous collectons",
     "blocks": [
      {
-      "p": "Aucune. Le développeur n’exploite aucun serveur pour l’app et ne reçoit aucune donnée personnelle de sa part."
+      "p": "Aucune. Le développeur ne reçoit aucune donnée personnelle de l’app. Le serveur de téléchargement décrit plus bas ne fait que distribuer des fichiers."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "Apple Santé",
     "blocks": [
      {
-      "p": "Avec votre autorisation, l’app lit la taille, le poids, le pourcentage de masse grasse, le tour de taille, la fréquence cardiaque, la fréquence cardiaque au repos, la variabilité de la fréquence cardiaque, la VO2 max, le sommeil, les pas, l’énergie active, les entraînements, le sexe biologique et la date de naissance, afin de personnaliser votre programme, d’estimer votre analyse corporelle et de calculer un score de forme. Elle enregistre les entraînements que vous terminez dans Atleva (avec une estimation de l’énergie active) et les mensurations que vous saisissez. Les données de santé servent uniquement à fournir ces fonctionnalités dans l’app. Elles ne sont jamais utilisées à des fins publicitaires ou marketing, jamais vendues et jamais partagées avec des tiers. Vous pouvez modifier les autorisations à tout moment dans l’app Santé ou dans les Réglages d’iOS."
+      "p": "Avec votre autorisation, l’app lit la taille, le poids, le pourcentage de masse grasse, le tour de taille, la fréquence cardiaque, la fréquence cardiaque au repos, la variabilité de la fréquence cardiaque, la VO2 max, le sommeil, les pas, l’énergie active, les entraînements, le sexe biologique et la date de naissance, afin de personnaliser votre programme, d’estimer votre analyse corporelle et de calculer un score de forme. Elle enregistre les entraînements que vous terminez dans Atleva (avec une estimation de l’énergie active) et les mensurations que vous saisissez. Sur l’Apple Watch, un entraînement que vous lancez depuis la montre lit votre fréquence cardiaque pendant qu’il se déroule, puis enregistre l’entraînement, la fréquence cardiaque et l’énergie active dans Apple Santé. Les données de santé servent uniquement à fournir ces fonctionnalités dans l’app. Elles ne sont jamais utilisées à des fins publicitaires ou marketing, jamais vendues et jamais partagées avec des tiers. Vous pouvez modifier les autorisations à tout moment dans l’app Santé ou dans les Réglages d’iOS."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Téléchargement de la voix du coach",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "L’app vérifie sur notre serveur de téléchargement (hébergé chez Cloudflare) s’il existe une voix de coach naturelle dans votre langue et, si vous choisissez de la télécharger dans Réglages, la télécharge depuis ce serveur. La requête ne contient que le nom du fichier ; comme toute requête web, elle révèle votre adresse IP à l’hébergeur, mais aucune donnée personnelle, de santé ou d’entraînement n’est envoyée. Le fichier reste sur votre appareil et est exclu des sauvegardes."
+      "p": "L’app Apple Watch facultative (Pro) communique uniquement avec votre propre iPhone, directement via WatchConnectivity d’Apple. Votre iPhone envoie à la montre la séance du jour (noms des exercices, séries et répétitions), votre série en cours et votre progression de la semaine ; la montre en conserve la dernière copie pour ses complications. Lorsque vous suivez un entraînement de l’iPhone sur la montre, votre fréquence cardiaque s’affiche en direct sur votre iPhone et n’est ni stockée ni synchronisée. Lorsque vous vous entraînez avec la montre seule, l’entraînement est enregistré dans Apple Santé sur la montre, et votre iPhone ne reçoit que le journal de séance (exercices, séries, répétitions et durée), comme pour un entraînement fait sur le téléphone. Rien de ce qui vient de la montre n’est envoyé au développeur ni à un tiers."
+     }
+    ]
+   },
+   {
+    "title": "Téléchargements : voix du coach et vidéos d’exercices",
+    "blocks": [
+     {
+      "p": "L’app télécharge certains fichiers depuis notre serveur de téléchargement (hébergé chez Cloudflare) : une voix de coach naturelle dans votre langue, si vous choisissez de la télécharger dans Réglages, ainsi que des vidéos d’exercices non incluses dans l’app, qui se téléchargent en arrière-plan en Wi-Fi ou à l’ouverture d’un exercice. Ces requêtes ne contiennent que des noms de fichiers ; comme toute requête web, elles révèlent votre adresse IP à l’hébergeur, mais aucune donnée personnelle, de santé ou d’entraînement n’est envoyée. Les fichiers téléchargés restent sur votre appareil et sont exclus des sauvegardes."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Notifications",
     "blocks": [
      {
-      "p": "Les rappels d’entraînement facultatifs sont programmés localement sur votre appareil. Aucune notification marketing n’est envoyée."
+      "p": "Les rappels d’entraînement facultatifs sont programmés localement sur votre appareil. Les rappels intelligents (Pro) sont calculés sur votre appareil à partir de votre historique d’entraînement, comme l’heure à laquelle vous vous entraînez habituellement et votre série en cours ; rien n’est envoyé. Aucune notification marketing n’est envoyée."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Conditions d’utilisation",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Atleva vous est concédé sous licence selon le Contrat de licence utilisateur final standard d’Apple pour les applications sous licence (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Les présentes conditions ajoutent quelques points propres à Atleva."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Assistance",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Une question, une suggestion ou un problème ? Écrivez à support@ardasnturk.com. Merci de ne pas envoyer d’informations de santé que vous ne souhaitez pas partager."

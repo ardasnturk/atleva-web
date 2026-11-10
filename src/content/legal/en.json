@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Privacy Policy",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "Atleva (\"the app\") is a home workout app for iPhone. This policy explains what data the app uses and where it goes. Short version: we don't collect your personal data. The only data that leaves your device besides iCloud sync is your subscription record (see Purchases). There are no accounts, no analytics, no ads and no tracking."
+    "p": "Atleva (\"the app\") is a home workout app for iPhone and Apple Watch. This policy explains what data the app uses and where it goes. Short version: we don't collect your personal data. The only data that leaves your device besides iCloud sync is your subscription record (see Purchases). There are no accounts, no analytics, no ads and no tracking."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Data we collect",
     "blocks": [
      {
-      "p": "None. The developer does not operate servers for the app and receives no personal data from it."
+      "p": "None. The developer receives no personal data from the app. The download server described below only delivers files."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "Apple Health",
     "blocks": [
      {
-      "p": "With your permission the app reads height, weight, body-fat percentage, waist circumference, heart rate, resting heart rate, heart-rate variability, VO2 max, sleep, steps, active energy, workouts, biological sex and date of birth, to personalize your plan, estimate your body analysis and calculate a readiness score. It writes the workouts you complete in Atleva (with an estimated active-energy value) and the body measurements you enter. Health data is used only to provide these features in the app. It is never used for advertising or marketing, never sold, and never shared with third parties. You can change permissions any time in the Health app or iOS Settings."
+      "p": "With your permission the app reads height, weight, body-fat percentage, waist circumference, heart rate, resting heart rate, heart-rate variability, VO2 max, sleep, steps, active energy, workouts, biological sex and date of birth, to personalize your plan, estimate your body analysis and calculate a readiness score. It writes the workouts you complete in Atleva (with an estimated active-energy value) and the body measurements you enter. On Apple Watch, a workout you start on the watch reads your heart rate while it runs and saves the workout, heart rate and active energy to Apple Health. Health data is used only to provide these features in the app. It is never used for advertising or marketing, never sold, and never shared with third parties. You can change permissions any time in the Health app or iOS Settings."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Coach voice download",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "The app checks our download server (hosted on Cloudflare) for a natural coach voice in your language, and if you choose to download it in Settings, it downloads it from there. These requests contain only file names; like any web request they reveal your IP address to the host, but no personal, health or workout data is sent. The file stays on your device and is excluded from backups."
+      "p": "The optional Apple Watch app (Pro) talks only to your own iPhone, directly through Apple's WatchConnectivity. Your iPhone sends today's session (exercise names, sets and reps), your streak and week progress to the watch, which keeps the latest copy for its complications. While you follow an iPhone workout on the watch, your heart rate is shown live on your iPhone and is not stored or synced. When you train on the watch alone, the workout is saved to Apple Health on the watch, and your iPhone receives only the session log (exercises, sets, reps and duration), like a workout done on the phone. Nothing from the watch is sent to the developer or any third party."
+     }
+    ]
+   },
+   {
+    "title": "Downloads: coach voice and exercise videos",
+    "blocks": [
+     {
+      "p": "The app downloads some files from our download server (hosted on Cloudflare): a natural coach voice in your language, if you choose to download it in Settings, and exercise videos that are not included in the app, which download on Wi-Fi in the background or when you open an exercise. These requests contain only file names; like any web request they reveal your IP address to the host, but no personal, health or workout data is sent. Downloaded files stay on your device and are excluded from backups."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Notifications",
     "blocks": [
      {
-      "p": "Optional workout reminders are scheduled locally on your device. No marketing notifications are sent."
+      "p": "Optional workout reminders are scheduled locally on your device. Smart reminders (Pro) are worked out on your device from your workout history, such as the time you usually train and your streak; nothing is sent anywhere. No marketing notifications are sent."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Terms of Use",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Atleva is licensed to you under Apple's Standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These terms add a few points specific to Atleva."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Questions, feedback or a problem? Email support@ardasnturk.com. Please don't send health information you don't want to share."

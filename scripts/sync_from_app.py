@@ -4,7 +4,8 @@
     npm run sync                      # expects the app repo at ../atleva (override with ATLEVA_APP=/path)
 
 - legal/<lang>/{privacy,terms,support}.md + legal/config.json → src/content/legal/<lang>.json
-- marketing/screenshots/raw/69/<App Store locale>/<slide>.png → public/screens/<lang>/<slide>.jpg (600 px wide)
+- marketing/screenshots/raw/69/<App Store locale>/<slide>.png → public/screens/<lang>/<slide>.jpg (600 px wide),
+  plus 00-camera (landscape) and the Apple Watch screens from marketing/screenshots/out/watch/
 - Resources/AppIcon.icon                                      → public/assets/icon.png (512 px, via ictool)
 """
 import json
@@ -93,6 +94,19 @@ for lang, (store_locale, _) in LANGUAGES.items():
         target.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "82", "--resampleWidth", "600",
                         str(source), "--out", str(target)], check=True, capture_output=True)
+        count += 1
+# Camera coach (landscape) and Apple Watch screens.
+EXTRA = [("marketing/screenshots/raw/69/{loc}/00-camera.png", "00-camera.jpg", "1000"),
+         ("marketing/screenshots/out/watch/{loc}/01-today.png", "watch-today.jpg", "416"),
+         ("marketing/screenshots/out/watch/{loc}/02-phone.png", "watch-phone.jpg", "416"),
+         ("marketing/screenshots/out/watch/{loc}/03-run.png", "watch-run.jpg", "416")]
+for lang, (store_locale, _) in LANGUAGES.items():
+    for pattern, name, width in EXTRA:
+        source = APP / pattern.format(loc=store_locale)
+        if not source.exists():
+            sys.exit(f"✗ missing screenshot {source} — run the screenshot scripts in the app repo")
+        subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "84", "--resampleWidth", width,
+                        str(source), "--out", str(WEB / "public/screens" / lang / name)], check=True, capture_output=True)
         count += 1
 print(f"✓ {count} screenshots → public/screens/")
 

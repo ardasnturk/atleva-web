@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Datenschutzerklärung",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "Atleva („die App“) ist eine App für Home-Workouts auf dem iPhone. Diese Erklärung beschreibt, welche Daten die App nutzt und wohin sie gelangen. Kurz gesagt: Wir erheben keine personenbezogenen Daten. Außer der iCloud-Synchronisierung verlässt nur dein Abo-Nachweis das Gerät (siehe Käufe). Es gibt keine Konten, keine Analyse, keine Werbung und kein Tracking."
+    "p": "Atleva („die App“) ist eine App für Home-Workouts auf iPhone und Apple Watch. Diese Erklärung beschreibt, welche Daten die App nutzt und wohin sie gelangen. Kurz gesagt: Wir erheben keine personenbezogenen Daten. Außer der iCloud-Synchronisierung verlässt nur dein Abo-Nachweis das Gerät (siehe Käufe). Es gibt keine Konten, keine Analyse, keine Werbung und kein Tracking."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Welche Daten wir erheben",
     "blocks": [
      {
-      "p": "Keine. Der Entwickler betreibt keine Server für die App und erhält von ihr keine personenbezogenen Daten."
+      "p": "Keine. Der Entwickler erhält von der App keine personenbezogenen Daten. Der unten beschriebene Download-Server liefert nur Dateien aus."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "Apple Health",
     "blocks": [
      {
-      "p": "Mit deiner Erlaubnis liest die App Größe, Gewicht, Körperfettanteil, Taillenumfang, Herzfrequenz, Ruhepuls, Herzfrequenzvariabilität, VO2max, Schlaf, Schritte, aktive Energie, Trainings, biologisches Geschlecht und Geburtsdatum, um deinen Plan zu personalisieren, deine Körperanalyse zu schätzen und einen Bereitschaftswert zu berechnen. Sie schreibt die Trainings, die du in Atleva abschließt (mit einem geschätzten Wert für aktive Energie), sowie die Körpermaße, die du einträgst. Gesundheitsdaten werden ausschließlich genutzt, um diese Funktionen in der App bereitzustellen. Sie werden nie für Werbung oder Marketing verwendet, nie verkauft und nie an Dritte weitergegeben. Du kannst die Berechtigungen jederzeit in der Health-App oder in den iOS-Einstellungen ändern."
+      "p": "Mit deiner Erlaubnis liest die App Größe, Gewicht, Körperfettanteil, Taillenumfang, Herzfrequenz, Ruhepuls, Herzfrequenzvariabilität, VO2max, Schlaf, Schritte, aktive Energie, Trainings, biologisches Geschlecht und Geburtsdatum, um deinen Plan zu personalisieren, deine Körperanalyse zu schätzen und einen Bereitschaftswert zu berechnen. Sie schreibt die Trainings, die du in Atleva abschließt (mit einem geschätzten Wert für aktive Energie), sowie die Körpermaße, die du einträgst. Auf der Apple Watch liest ein Training, das du auf der Uhr startest, während des Trainings deine Herzfrequenz und speichert das Training, die Herzfrequenz und die aktive Energie in Apple Health. Gesundheitsdaten werden ausschließlich genutzt, um diese Funktionen in der App bereitzustellen. Sie werden nie für Werbung oder Marketing verwendet, nie verkauft und nie an Dritte weitergegeben. Du kannst die Berechtigungen jederzeit in der Health-App oder in den iOS-Einstellungen ändern."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Download der Coach-Stimme",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "Die App prüft auf unserem Download-Server (gehostet bei Cloudflare), ob es eine natürliche Coach-Stimme in deiner Sprache gibt, und lädt sie dort, wenn du das in den Einstellungen wählst. Die Anfrage enthält nur den Dateinamen; wie jede Webanfrage gibt sie dem Host deine IP-Adresse preis, es werden aber keine persönlichen, Gesundheits- oder Trainingsdaten gesendet. Die Datei bleibt auf deinem Gerät und ist von Backups ausgeschlossen."
+      "p": "Die optionale Apple Watch-App (Pro) kommuniziert ausschließlich mit deinem eigenen iPhone, direkt über Apples WatchConnectivity. Dein iPhone sendet die heutige Einheit (Übungsnamen, Sätze und Wiederholungen), deine Serie und den Wochenfortschritt an die Uhr, die die jeweils aktuelle Kopie für ihre Komplikationen speichert. Wenn du auf der Uhr einem iPhone-Workout folgst, wird deine Herzfrequenz live auf deinem iPhone angezeigt und weder gespeichert noch synchronisiert. Trainierst du nur mit der Uhr, wird das Training auf der Uhr in Apple Health gespeichert, und dein iPhone erhält lediglich das Einheitenprotokoll (Übungen, Sätze, Wiederholungen und Dauer) – genau wie bei einem Training auf dem iPhone. Nichts von der Uhr wird an den Entwickler oder an Dritte gesendet."
+     }
+    ]
+   },
+   {
+    "title": "Downloads: Coach-Stimme und Übungsvideos",
+    "blocks": [
+     {
+      "p": "Die App lädt einige Dateien von unserem Download-Server (gehostet bei Cloudflare) herunter: eine natürliche Coach-Stimme in deiner Sprache, wenn du das in den Einstellungen wählst, sowie Übungsvideos, die nicht in der App enthalten sind und per WLAN im Hintergrund oder beim Öffnen einer Übung geladen werden. Diese Anfragen enthalten nur Dateinamen; wie jede Webanfrage geben sie dem Host deine IP-Adresse preis, es werden aber keine persönlichen, Gesundheits- oder Trainingsdaten gesendet. Heruntergeladene Dateien bleiben auf deinem Gerät und sind von Backups ausgeschlossen."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Mitteilungen",
     "blocks": [
      {
-      "p": "Optionale Trainingserinnerungen werden lokal auf deinem Gerät geplant. Es werden keine Marketing-Mitteilungen gesendet."
+      "p": "Optionale Trainingserinnerungen werden lokal auf deinem Gerät geplant. Intelligente Erinnerungen (Pro) werden auf deinem Gerät aus deinem Trainingsverlauf berechnet, etwa aus der Uhrzeit, zu der du meist trainierst, und deiner Serie; es wird nichts gesendet. Es werden keine Marketing-Mitteilungen gesendet."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Nutzungsbedingungen",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Atleva wird dir unter Apples Standard-Endbenutzer-Lizenzvertrag für lizenzierte Apps (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) lizenziert. Diese Bedingungen ergänzen ihn um einige Punkte, die speziell für Atleva gelten."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Support",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Fragen, Feedback oder ein Problem? Schreib eine E-Mail an support@ardasnturk.com. Bitte sende keine Gesundheitsinformationen, die du nicht teilen möchtest."

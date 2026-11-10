@@ -1,10 +1,10 @@
 {
  "privacy": {
   "title": "Informativa sulla privacy",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
-    "p": "Atleva («l'app») è un'app di allenamento a casa per iPhone. Questa informativa spiega quali dati usa l'app e dove finiscono. In breve: non raccogliamo i tuoi dati personali. Oltre alla sincronizzazione iCloud, dal dispositivo esce solo la registrazione del tuo abbonamento (vedi Acquisti). Non ci sono account, strumenti di analisi, pubblicità né tracciamento."
+    "p": "Atleva («l'app») è un'app di allenamento a casa per iPhone e Apple Watch. Questa informativa spiega quali dati usa l'app e dove finiscono. In breve: non raccogliamo i tuoi dati personali. Oltre alla sincronizzazione iCloud, dal dispositivo esce solo la registrazione del tuo abbonamento (vedi Acquisti). Non ci sono account, strumenti di analisi, pubblicità né tracciamento."
    }
   ],
   "sections": [
@@ -12,7 +12,7 @@
     "title": "Dati che raccogliamo",
     "blocks": [
      {
-      "p": "Nessuno. Lo sviluppatore non gestisce server per l'app e non riceve da essa alcun dato personale."
+      "p": "Nessuno. Lo sviluppatore non riceve alcun dato personale dall'app. Il server di download descritto più sotto si limita a fornire file."
      }
     ]
    },
@@ -39,7 +39,7 @@
     "title": "Apple Salute",
     "blocks": [
      {
-      "p": "Con il tuo permesso l'app legge altezza, peso, percentuale di grasso corporeo, circonferenza vita, frequenza cardiaca, frequenza cardiaca a riposo, variabilità della frequenza cardiaca, VO2 max, sonno, passi, energia attiva, allenamenti, sesso biologico e data di nascita, per personalizzare il piano, stimare l'analisi corporea e calcolare un punteggio di prontezza. Scrive gli allenamenti che completi in Atleva (con un valore stimato di energia attiva) e le misure corporee che inserisci. I dati sanitari vengono usati solo per fornire queste funzioni nell'app. Non vengono mai usati per pubblicità o marketing, mai venduti e mai condivisi con terze parti. Puoi modificare i permessi in qualsiasi momento nell'app Salute o in Impostazioni di iOS."
+      "p": "Con il tuo permesso l'app legge altezza, peso, percentuale di grasso corporeo, circonferenza vita, frequenza cardiaca, frequenza cardiaca a riposo, variabilità della frequenza cardiaca, VO2 max, sonno, passi, energia attiva, allenamenti, sesso biologico e data di nascita, per personalizzare il piano, stimare l'analisi corporea e calcolare un punteggio di prontezza. Scrive gli allenamenti che completi in Atleva (con un valore stimato di energia attiva) e le misure corporee che inserisci. Su Apple Watch, un allenamento che avvii dall’orologio legge la tua frequenza cardiaca mentre è in corso e salva allenamento, frequenza cardiaca ed energia attiva in Apple Salute. I dati sanitari vengono usati solo per fornire queste funzioni nell'app. Non vengono mai usati per pubblicità o marketing, mai venduti e mai condivisi con terze parti. Puoi modificare i permessi in qualsiasi momento nell'app Salute o in Impostazioni di iOS."
      }
     ]
    },
@@ -60,10 +60,18 @@
     ]
    },
    {
-    "title": "Download della voce del coach",
+    "title": "Apple Watch",
     "blocks": [
      {
-      "p": "L’app verifica sul nostro server di download (ospitato su Cloudflare) se esiste una voce del coach naturale nella tua lingua e, se scegli di scaricarla nelle Impostazioni, la scarica da lì. La richiesta contiene solo il nome del file; come ogni richiesta web rivela il tuo indirizzo IP all’host, ma non vengono inviati dati personali, sanitari o di allenamento. Il file resta sul dispositivo ed è escluso dai backup."
+      "p": "L’app Apple Watch facoltativa (Pro) comunica solo con il tuo iPhone, direttamente tramite WatchConnectivity di Apple. L’iPhone invia all’orologio la sessione di oggi (nomi degli esercizi, serie e ripetizioni), la tua serie di giorni consecutivi e i progressi della settimana; l’orologio conserva l’ultima copia per le sue complicazioni. Mentre segui sull’orologio un allenamento dell’iPhone, la frequenza cardiaca compare in tempo reale sull’iPhone e non viene salvata né sincronizzata. Quando ti alleni solo con l’orologio, l’allenamento viene salvato in Apple Salute sull’orologio e l’iPhone riceve soltanto il registro della sessione (esercizi, serie, ripetizioni e durata), come per un allenamento svolto sul telefono. Nulla dell’orologio viene inviato allo sviluppatore o a terze parti."
+     }
+    ]
+   },
+   {
+    "title": "Download: voce del coach e video degli esercizi",
+    "blocks": [
+     {
+      "p": "L’app scarica alcuni file dal nostro server di download (ospitato su Cloudflare): una voce del coach naturale nella tua lingua, se scegli di scaricarla nelle Impostazioni, e i video degli esercizi non inclusi nell’app, che vengono scaricati in background con il Wi-Fi o quando apri un esercizio. Le richieste contengono solo nomi di file; come ogni richiesta web rivelano il tuo indirizzo IP all’host, ma non vengono inviati dati personali, sanitari o di allenamento. I file scaricati restano sul dispositivo e sono esclusi dai backup."
      }
     ]
    },
@@ -71,7 +79,7 @@
     "title": "Notifiche",
     "blocks": [
      {
-      "p": "I promemoria facoltativi per gli allenamenti vengono programmati localmente sul tuo dispositivo. Non vengono inviate notifiche di marketing."
+      "p": "I promemoria facoltativi per gli allenamenti vengono programmati localmente sul tuo dispositivo. I promemoria intelligenti (Pro) vengono calcolati sul tuo dispositivo a partire dalla cronologia degli allenamenti, ad esempio l’orario in cui di solito ti alleni e la tua serie; non viene inviato nulla all’esterno. Non vengono inviate notifiche di marketing."
      }
     ]
    },
@@ -127,7 +135,7 @@
  },
  "terms": {
   "title": "Termini d'uso",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Atleva ti è concessa in licenza in base al Contratto di licenza standard di Apple con l'utente finale per le applicazioni concesse in licenza (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Questi termini aggiungono alcuni punti specifici di Atleva."
@@ -182,7 +190,7 @@
  },
  "support": {
   "title": "Supporto",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "intro": [
    {
     "p": "Domande, feedback o un problema? Scrivi a support@ardasnturk.com. Non inviare informazioni sulla salute che non vuoi condividere."
